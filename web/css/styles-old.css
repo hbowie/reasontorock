@@ -1,0 +1,743 @@
+/* 
+
+STYLE SHEET FOR ReasonToRock.com 3.0
+Created by Herb Bowie
+www.HerbBowie.com
+
+ToC
+
+	1. defaults
+	2. structure
+	3. links and navigation
+	4. fonts
+	5. images
+
+Notes
+
+*/
+
+
+
+/* --------- 1. defaults  --------- */
+
+/* Set base font size for html */
+
+/*
+@media all {html {font-size: 24px;}}
+@media all and (max-width:1000px){html {font-size: 24px;}}
+@media all and (max-width:960px){html {font-size: 23px;}}
+@media all and (max-width:920px){html {font-size: 22px;}}
+@media all and (max-width:880px){html {font-size: 21px;}}
+@media all and (max-width:840px){html {font-size: 20px;}}
+@media all and (max-width:800px){html {font-size: 19px;}}
+@media all and (max-width:760px){html {font-size: 18px;}}
+@media all and (max-width:720px){html {font-size: 17px;}}
+@media all and (max-width:680px){html {font-size: 16px;}}
+@media all and (max-width:640px){html {font-size: 15px;}}
+@media all and (max-width:600px){html {font-size: 14px;}}
+@media all and (max-width:560px){html {font-size: 13px;}}
+@media all and (max-width:520px){html {font-size: 12px;}}
+
+@media all and (max-width:520px) {
+  html{ font-size: 18px;}
+} */
+
+html {
+	font-size: 2.0em;
+}
+
+body, li  p {
+	font-family: "equity-text", Verdana, sans-serif; 
+}
+
+dd .tags { font-style: italic; }
+
+body, div, p, img {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+.logo-image {
+	border: 0;
+}
+
+/* body, div, p
+{
+	font-family: Georgia, serif;
+	font-size: medium;
+	line-height: 1.2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+} */
+html { 
+	/* line-height: 1.4em; */
+}
+/*
+body {
+	font-family: equity-text, Verdana, sans-serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+} */
+* html body {
+  font-size: small; /* for IE5/Win */
+  f\ont-size: medium; /* for other IE versions */
+}
+#container {
+  font-size: 100%;
+}
+ul li {
+  margin-top: 0.5em;
+}
+ol li {
+  margin-top: 0.5em;
+}
+dt { margin-top: 0.5em; }
+/* ol .numbered-lines { margin-bottom: 0em; } */
+.numbered-lines li { margin-top: 0em; }
+.first { margin-top: 0.4em; }
+
+hr { margin-top: 1em; }
+		
+/*  --------- 2. structure  --------- */
+
+div
+{
+	/* border: 1pt #000000 solid; */
+	/* background-color: #ADB7BE; */
+} 
+
+/* Left Column (LC) width = 130 + padding of 15 = 160 */
+/* Right Column (RC) width = 130 + padding of 15 = 160 */
+
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 480px;      /* 2x LC width + RC width */
+}
+#container {
+  padding-left: 160px;   /* LC width */
+  padding-right: 160px;  /* RC width */
+}
+#container .column {
+  position: relative;
+  float: left;
+}
+#center {
+  width: 100%;
+  /* padding: 10px; */
+}
+#left {
+  width: 130px;          /* LC content width */
+  right: 160px;          /* LC width */
+  margin-left: -100%;
+  padding: 0;
+}
+#right {
+  width: 160px;          /* RC content width */
+  margin-right: -100%;   /* RC width */
+  padding: 0;
+}
+#footer {
+  clear: both;
+}
+
+/* Left column (# 1) elements */
+		
+#logo
+{
+	width: 130px;
+	height: 130px;
+	margin: 0;
+	padding: 15px 15px 15px 15px;
+}
+
+#nav
+{
+	width: 130px;
+	margin: 0 0 0 0;
+	padding: 15px;
+	border-top: 5px #ADB7BE solid;
+}
+
+/* Middle column (# 2) elements */
+
+#years-container
+{
+	height: 130px;
+	margin: 0 0 0 0;
+	padding: 15px 0 15px 0;
+	border-right: 5px #ADB7BE solid;
+	border-left: 5px #ADB7BE solid;
+	border-collapse: collapse;
+	background-color: #B17C7E;
+}
+
+.years-spacer {
+  height: 20%;
+}
+
+#years
+{
+	margin: 0;
+	padding: 0.2em 0 0 0;
+	text-align: center;
+	font-size: 4em;
+	line-height: 1.25em;
+	/* font-family: Lucida Sans, Verdana, Geneva, Arial, sans-serif; */
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	color: white;
+}
+
+#subtitle
+{
+	margin: 0;
+	padding: 0.2em 0 0 0;
+	text-align: center;
+	font-size: 2.25em;
+	line-height: 1.5em;
+	/* font-family: Lucida Sans, Verdana, Geneva, Arial, sans-serif; */
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	color: white;
+}
+
+#body
+{
+	margin: 0;
+	padding: 15px;
+	border-top: 5px #ADB7BE solid;
+	border-right: 5px #ADB7BE solid;
+	border-left: 5px #ADB7BE solid;
+	border-collapse: collapse;
+}
+
+#footer {
+  clear: both;
+  padding: 15px;
+  text-align: center;
+	border-top: 5px #ADB7BE solid;
+	border-right: 5px #ADB7BE solid;
+	border-left: 5px #ADB7BE solid;
+}
+
+/* Right column (# 3) elements */
+
+#upper-right
+{
+  width: 130px;
+  height: 130px;
+	margin: 0 0 0 0;
+	padding: 15px 0 15px 0;
+}
+
+#albums
+{
+	width: 130px;
+	margin: 0 0 0 0;
+	padding: 15px;
+	border-top: 5px #ADB7BE solid;
+}
+
+/*** IE6 Fix ***/
+* html #left {
+  left: 160px;           /* RC width */
+}
+
+/* float-clearing rules */
+.separator {
+		clear: both;
+}
+
+.separatorInvisible {
+		clear: both;
+		height: 1px;
+}
+
+.clearFix:after {
+    	content: "."; 
+    	display: block; 
+    	height: 0; 
+    	clear: both; 
+    	visibility: hidden;
+}		
+		
+/* ---------- 3. links and navigation ---------- */
+
+a {
+		}
+		
+a:link
+{
+	color: #436098;
+	text-decoration: none;
+	border-bottom: 1px #436098 dotted;
+}
+
+a:visited
+{
+	color: #67688E;
+	text-decoration: none;
+	outline: none;
+	border-bottom: 1px #67688E dotted;
+}
+
+a:focus { outline: none; }
+		
+a:hover
+{
+	color: #273F6C;
+	text-decoration: none;
+	border-bottom: 1px #67688E solid;
+}
+
+a:active
+{
+	color: #273F6C;
+	text-decoration: none;
+	outline: none;
+	border-bottom: 1px #67688E solid;
+}
+
+#nav {
+  
+		}
+
+#nav a:link
+{
+	color: #976871;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#nav a:visited { text-decoration: none; }
+
+#nav a:hover { text-decoration: none; }
+
+#nav a:active { text-decoration: none; }
+
+#logo a:link    { border: 0; }
+#logo a:visited { border: 0; }
+#logo a:focus   { border: 0; }
+#logo a:hover   { border: 0; }
+#logo a:active  { border: 0; }
+
+#nav ul
+{
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#nav ul ul
+{
+	list-style-type: none;
+	padding-left: 10px;
+	margin-left: 0;
+}
+
+#nav li
+{
+	/* font-family: Verdana, Geneva, sans-serif; */
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	/* font-family: Tahoma, Geneva, sans-serif; */
+	/* font-family: Lucida Grande, Lucida Sans Unicode, sans-serif; */
+	color: #2B53AD;
+	font-weight: 600;
+	/* font-style: italic; */
+}
+
+#nav ul li
+{
+	font-size: 1em;
+	margin-top: 0.5em;
+	font-variant: normal;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+
+
+#nav ul li a:link 
+{
+	color: #436098;
+	text-decoration: none;
+	border: 0 none;
+}
+
+#nav ul li a:visited 
+{
+	color: #436098;
+	text-decoration: none;
+	border: 0 none;
+}
+
+#nav ul li a:hover 
+{
+	color: #436098;
+	text-decoration: none;
+	border-bottom: 1px #67688E solid;
+}
+
+#nav ul ul li a:link { color: #6B7390; text-decoration: none; }
+
+#nav ul ul li a:visited { color: #6B7390; text-decoration: none; }
+
+#nav ul ul li a:hover { color: #6B7390; text-decoration: none; }
+
+#nav ul ul li
+{
+	font-size: 0.8em;
+	margin-top: 0.2em;
+	font-variant: normal;
+	text-transform: none;
+}
+
+#nav p
+{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: #2B53AD;
+	font-weight: 600;
+	font-size: 1em;
+	margin-top: 1em;
+	font-variant: normal;
+	text-transform: uppercase;
+}
+
+#nav p a:link 
+{
+	color: #436098;
+	text-decoration: none;
+	border: 0 none;
+}
+
+#nav p a:visited 
+{
+	color: #436098;
+	text-decoration: none;
+	border: 0 none;
+}
+
+#nav p a:hover 
+{
+	color: #436098;
+	text-decoration: none;
+	border-bottom: 1px #67688E solid;
+}
+
+div #search
+{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: #2B53AD;
+	font-weight: 600;
+	padding-left: 15px;
+}
+
+div #ad
+{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: #2B53AD;
+	font-weight: 500;
+	padding-left: 15px;
+	padding-top: 30px;
+	font-size: 0.8em;
+}
+
+div #ad a:link
+{
+	color: #976871;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+div #ad a:visited { color: #2B53AD; text-decoration: none; }
+
+div #ad a:hover { text-decoration: none; }
+
+div #ad a:active { text-decoration: none; }
+
+#toc { font-family: Trebuchet MS, Helvetica, sans-serif; }
+
+#toc a:link
+{
+	color: #436098;
+	text-decoration: none;
+	border: none;
+}
+
+#toc a:visited
+{
+	color: #67688E;
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+
+#toc a:focus { outline: none; }
+		
+#toc a:hover
+{
+	color: #273F6C;
+	text-decoration: none;
+	border-bottom: 1px #67688E solid;
+}
+
+#toc a:active
+{
+	color: #273F6C;
+	text-decoration: none;
+	outline: none;
+	border-bottom: 1px #67688E solid;
+}
+
+p.toc-track-sort-options {
+  font-family: Trebuchet MS, Helvetica, sans-serif; 
+  margin-bottom: 1em;
+}
+
+.this-page
+{
+	/* font-style: italic; */
+	color: #4A547A;
+	font-weight: 500;
+}
+
+.nextnav
+{
+	margin-top: 3em;
+	text-align: center;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+
+.nextnav a:link
+{
+	color: #436098;
+	text-decoration: none;
+	border: none;
+}
+
+.nextnav a:visited
+{
+	color: #67688E;
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+
+.nextnav a:focus { outline: none; }
+		
+.nextnav a:hover
+{
+	color: #273F6C;
+	text-decoration: none;
+	border-bottom: 1px #67688E solid;
+}
+
+.nextnav a:active
+{
+	color: #273F6C;
+	text-decoration: none;
+	outline: none;
+	border-bottom: 1px #67688E solid;
+}
+
+#footer a:link
+{
+	color: #000000;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#footer a:visited
+{
+	color: #000000;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#footer a:hover
+{
+	color: #273F6C;
+	text-decoration: none;
+	border-bottom: 1px #67688E solid;
+}
+		
+/* ---------- 4. fonts ---------- */
+/*
+html {
+		font-size: 100%;
+		}
+
+body {
+		font-size: 62.5%;
+		} */
+
+h1, h2, h3, h4, p, ul {
+		}
+		
+/* h1 { font: bold 1.5em/1.7em Lucida Sans, Verdana, Geneva, Arial, sans-serif; margin-top: 1em; }
+
+h2 { font: bold 1.2em/1.4em Lucida Sans, Verdana, Geneva, Arial, sans-serif; margin-top: 1em; margin-bottom: 0.4em; }
+
+h3 { font: bold 1em/1.4em Lucida Sans, Verdana, Geneva, Arial, sans-serif; margin-top: 1em; margin-bottom: 0.4em; } */
+
+h1 { font: bold 1.5em/1.7em Trebuchet MS, Helvetica, sans-serif; margin-top: 1em; }
+
+h2 { font: bold 1.2em/1.4em Trebuchet MS, Helvetica, sans-serif; margin-top: 1em; margin-bottom: 0.4em; }
+
+h3 { font: bold 1em/1.4em Trebuchet MS, Helvetica, sans-serif; margin-top: 1em; margin-bottom: 0.4em; }
+		
+h4 {
+		}
+
+p { margin-top: 1em; 
+		}
+
+ul {
+		}
+
+.author { margin-left: 6em; margin-right: 2em; margin-bottom: 2em; text-align: right; }
+
+p.amazon-store { font-family: Lucida Sans, Verdana, Geneva, Arial, sans-serif; }
+
+/* ---------- 5. images ---------- */
+
+.shopItem
+{
+	width: 130px;
+	margin-top: 5em;
+}
+
+img.centered
+{
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.shopItem a { border: 0; }
+
+.five-star {margin-bottom: 8.4em; }
+
+/* --------------------- 6. tables ----------------- */
+
+table.shaded { background-color: #436098; margin-top: 1em; }
+
+th.shaded
+{
+	background-color: #D0DFF5;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 4px;
+}
+
+th.shadedCentered
+{
+	background-color: #D0DFF5;
+	text-align: center;
+	vertical-align: bottom;
+	padding: 4px;
+}
+
+td.shaded
+{
+	background-color: #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	padding: 4px;
+}
+
+td.shadedCentered
+{
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: top;
+	padding: 4px;
+}
+
+/* --------------------- 7. Quotations ----------------- */ 
+
+blockquote.pull { 
+  border: 0 #FFFFFF none;
+  background-color: #DCEAFF;
+	line-height: 1.5em;
+  padding-top: 0.5em; 
+  padding-right: 2em; 
+  padding-bottom: 1em;
+  padding-left: 2em;  
+  margin-left: 0;
+  margin-right: 0; 
+  margin-bottom: 2em; }
+  
+* html blockquote.pull {
+  padding-top: 2em;
+  margin-top: 0;
+}
+
+blockquote p { margin-top: 1em;  }
+
+div.pullquote
+{
+	border: 0 #FFFFFF none;
+	padding-top: 0.5em;
+	padding-right: 0;
+	padding-bottom: 0.5em;
+	padding-left: 0;
+	background-color: #DCEAFF;
+	line-height: 1.5em;
+}
+
+blockquote.pull a
+{
+	color: #000000;
+	text-decoration: none;
+	border: 0 transparent none;
+}
+
+blockquote.pull a:link 
+{
+	color: #000000;
+	text-decoration: none;
+	border: 0 transparent none;
+}
+blockquote.pull a:visited 
+{
+	color: #000000;
+	text-decoration: none;
+	border: 0 transparent none;
+}
+blockquote.pull a:hover
+{
+	color: #000000;
+	text-decoration: none;
+	border: 0 transparent none;
+}
+blockquote.pull a:active
+{
+	color: #000000;
+	text-decoration: none;
+	border: 0 transparent none;
+}
+
+/*
+  Colors
+    
+    #AE858D - Faded red - Background Color for Years block at top center of page
+    #436098 - Faded blue - Used for Links
+    #67688E - Muddy purple - Visited Links
+    #273F6C - Muddy grey - Hovering Links
+    #976871 - Faded red - Nav Links
+    #2B53AD - Brighter Blue - Nav List Item
+    #6B7390 - Dull grey - Second Level Nav Links
+    #4A547A - Grayish Purple - Link for Current Page
+    
+*/

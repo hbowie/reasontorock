@@ -1,0 +1,15 @@
+body {
+  font-family: 'equity-text', Verdana, Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.428571429;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'concourse_t4regular', Georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.shopItem {
+	margin-bottom: 3em;
+}
