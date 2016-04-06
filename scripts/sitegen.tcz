@@ -14,3 +14,20 @@ input	set		normalization	0
 input	open	xls		#PATH#../lists/technology.xls
 template	open	file		#PATH#../factory/technology_template.html
 template	generate
+<!-- Generate sidebars that appear on the right side of the page -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/items.xls
+sort	add	Ascending	Folder
+sort	add	Ascending	File Name
+sort	add	Ascending	Sidebar Seq
+sort	set		params
+template	open	file		#PATH#../factory/sidebar_template.html
+template	generate
+<!-- Generate bibliography body -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/items.xls
+sort	add	Ascending	Last Name First
+sort	add	Ascending	Pub Date
+sort	set		params
+template	open	file		#PATH#../factory/bibliography_template.html
+template	generate
