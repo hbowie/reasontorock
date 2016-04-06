@@ -10,6 +10,42 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'concourse_t4regular', Georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* --------------------- 6. tables ----------------- */
+
+table.shaded { background-color: #436098; margin-top: 1em; }
+
+th.shaded
+{
+	background-color: #D0DFF5;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 4px;
+}
+
+th.shadedCentered
+{
+	background-color: #D0DFF5;
+	text-align: center;
+	vertical-align: bottom;
+	padding: 4px;
+}
+
+td.shaded
+{
+	background-color: #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	padding: 4px;
+}
+
+td.shadedCentered
+{
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: top;
+	padding: 4px;
+}
+
 .shopItem {
 	margin-bottom: 3em;
 }

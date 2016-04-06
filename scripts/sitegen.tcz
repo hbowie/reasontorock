@@ -1,0 +1,16 @@
+module	action	modifier	object	value
+<!-- Generate javascript to randomly display album images -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/items.xls
+filter	add	equals	Type	albums
+filter	add	equals	Home Page?	Yes
+filter	add	greater than	Artist Link
+filter	add	greater than	Image Name
+filter	set		params
+template	open	file		#PATH#../factory/index_template.js
+template	generate
+<!-- Generate Technology body -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/technology.xls
+template	open	file		#PATH#../factory/technology_template.html
+template	generate
