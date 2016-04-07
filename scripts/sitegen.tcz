@@ -7,12 +7,12 @@ filter	add	equals	Home Page?	Yes
 filter	add	greater than	Artist Link
 filter	add	greater than	Image Name
 filter	set		params
-template	open	file		#PATH#../factory/index_template.js
+template	open	file		#PATH#../factory/js/index_template.js
 template	generate
 <!-- Generate Technology body -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/technology.xls
-template	open	file		#PATH#../factory/technology_template.html
+template	open	file		#PATH#../factory/html/technology_template.html
 template	generate
 <!-- Generate sidebars that appear on the right side of the page -->
 input	set		normalization	0
@@ -21,7 +21,7 @@ sort	add	Ascending	Folder
 sort	add	Ascending	File Name
 sort	add	Ascending	Sidebar Seq
 sort	set		params
-template	open	file		#PATH#../factory/sidebar_template.html
+template	open	file		#PATH#../factory/sidebars/sidebar_template.html
 template	generate
 <!-- Generate bibliography body -->
 input	set		normalization	0
@@ -29,5 +29,23 @@ input	open	xls		#PATH#../lists/items.xls
 sort	add	Ascending	Last Name First
 sort	add	Ascending	Pub Date
 sort	set		params
-template	open	file		#PATH#../factory/bibliography_template.html
+template	open	file		#PATH#../factory/html/bibliography_template.html
+template	generate
+<!-- Generate Home page -->
+input	set		normalization	0
+input	open	notenik		#PATH#../home/
+template	open	text		#PATH#../factory/home_template.html
+template	generate
+<!-- Generate index (table-of-contents) pages -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+sort	add	Ascending	Seq1
+sort	add	Ascending	Seq2
+sort	set		params
+template	open	file		#PATH#../factory/sub/index_template.html
+template	generate
+<!-- Generate pages -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+template	open	file		#PATH#../factory/sub/page_template.html
 template	generate

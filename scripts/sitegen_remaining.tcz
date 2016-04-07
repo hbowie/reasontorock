@@ -1,19 +1,5 @@
 module	action	modifier	object	value
-<!-- Generate javascript to randomly display album images -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
-filter	add	equals	Type	albums
-filter	add	equals	Home Page?	Yes
-filter	add	greater than	Artist Link
-filter	add	greater than	Image Name
-filter	set		params
-template	open	file		#PATH#../factory/index_template.js
-template	generate
-<!-- Generate Technology body -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/technology.xls
-template	open	file		#PATH#../factory/technology_template.html
-template	generate
+
 <!-- Generate sidebars that appear on the right side of the page -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
@@ -50,14 +36,6 @@ sort	add	Ascending	Artist File Name
 sort	add	Ascending	Item Title
 sort	set		params
 template	open	file		#PATH#../factory/links_by_artist_template.html
-template	generate
-<!-- Generate bibliography body -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
-sort	add	Ascending	Last Name First
-sort	add	Ascending	Pub Date
-sort	set		params
-template	open	file		#PATH#../factory/bibliography_template.html
 template	generate
 <!-- Generate Left Hand Navigation links -->
 input	set		normalization	0
@@ -134,19 +112,6 @@ sort	add	Ascending	Pub Date
 sort	add	Ascending	Seq
 sort	set		params
 template	open	file		#PATH#../factory/sidebar_template_tracks.html
-template	generate
-<!-- Generate pages -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-template	open	file		#PATH#../factory/page_template.html
-template	generate
-<!-- Generate index (table-of-contents) pages -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-sort	add	Ascending	Seq1
-sort	add	Ascending	Seq2
-sort	set		params
-template	open	file		#PATH#../factory/index_template.html
 template	generate
 <!-- Generate index (table-of-contents) page for tracks sorted by artist -->
 input	set		normalization	0
