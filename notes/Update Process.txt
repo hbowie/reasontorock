@@ -1,0 +1,16 @@
+Title:  Update Process
+
+Body:   
+ 
+1. Update any BBEdit include files that need to be changed.
+
+2. Make sure the BBEdit site settings are set as follows:
+
+	* Local site root points to the factory folder;
+	* Includes folder is set;
+	* Addressing is relative to document.
+
+3. Use BBEdit to update the site.
+
+4. Use PSTextMerge to run the sitegen.tcz script.
+
