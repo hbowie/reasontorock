@@ -30,7 +30,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
 
       <!-- Header -->
 <!-- #bbinclude "page-header.html" -->
@@ -46,7 +46,7 @@
 
         <!-- Left Hand Column: Navigation -->
         <div class="col-md-2 col-lg-2 col-lg-offset-1">
-
+<!-- #bbinclude "navbar.html" -->
           <div class="navbar navbar-default">
               <div class="container-fluid">
                   <div class="navbar-header">
@@ -55,7 +55,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Menu</a>
+                    <a class="navbar-brand" href="./">Menu</a>
                   </div>
 
                   <div class="collapse navbar-collapse" id="mynavbar-content">
@@ -66,22 +66,12 @@
                           <li><a href="artists/index.html">Artists</a></li>
                           <li><a href="tracks/index.html">Tracks</a></li>
                           <li><a href="closing/index.html">Closing</a></li>
+                          <li><a href="search.html">Search</a></li>
                       </ul>
                   </div>
               </div>
           </div>
-
-          <div id="search">
-            <form class="form" role="form" method="get" action="http://www.google.com/search">
-                <div class="form-group">
-                    <label for="searchField">Search</label>
-                    <input type="text" class="form-control" id="searchField" placeholder="Search for..." />
-                    <button type="submit" class="btn btn-primary">Go</button>
-                    <input type="hidden"  name="sitesearch" value="reasontorock.com" />
-                </div>
-            </form>
-          </div>
-
+<!-- end bbinclude -->
         </div>
 
         <!-- Center Column: Text -->
