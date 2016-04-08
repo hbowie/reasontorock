@@ -1,0 +1,19 @@
+module	action	modifier	object	value
+<!-- Generate index (table-of-contents) page for tracks sorted by artist -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+filter	add	equals	Section	Artists
+filter	set		params
+sort	add	Ascending	Last Name First
+sort	set		params
+template	open	file		#PATH#../factory/sub/index_tracks_by_artist_template.html
+template	generate
+<!-- Generate index (table-of-contents) page for tracks sorted by title -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+filter	add	equals	Section	Tracks
+filter	set		params
+sort	add	Ascending	Title
+sort	set		params
+template	open	file		#PATH#../factory/sub/index_tracks_by_title_template.html
+template	generate

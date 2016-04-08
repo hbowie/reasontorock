@@ -1,5 +1,4 @@
 module	action	modifier	object	value
-
 <!-- Generate sidebars that appear on the right side of the page -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
@@ -112,24 +111,6 @@ sort	add	Ascending	Pub Date
 sort	add	Ascending	Seq
 sort	set		params
 template	open	file		#PATH#../factory/sidebar_template_tracks.html
-template	generate
-<!-- Generate index (table-of-contents) page for tracks sorted by artist -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-filter	add	equals	Section	Artists
-filter	set		params
-sort	add	Ascending	Last Name First
-sort	set		params
-template	open	file		#PATH#../factory/index_tracks_by_artist_template.html
-template	generate
-<!-- Generate index (table-of-contents) page for tracks sorted by title -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-filter	add	equals	Section	Tracks
-filter	set		params
-sort	add	Ascending	Title
-sort	set		params
-template	open	file		#PATH#../factory/index_tracks_by_title_template.html
 template	generate
 <!-- Generate epub chapters -->
 input	set		normalization	0

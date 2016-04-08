@@ -9,11 +9,19 @@ filter	add	greater than	Image Name
 filter	set		params
 template	open	file		#PATH#../factory/js/index_template.js
 template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
 <!-- Generate Technology body -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/technology.xls
 template	open	file		#PATH#../factory/html/technology_template.html
 template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
 <!-- Generate sidebars that appear on the right side of the page -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
@@ -23,6 +31,10 @@ sort	add	Ascending	Sidebar Seq
 sort	set		params
 template	open	file		#PATH#../factory/sidebars/sidebar_template.html
 template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
 <!-- Generate bibliography body -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
@@ -31,6 +43,10 @@ sort	add	Ascending	Pub Date
 sort	set		params
 template	open	file		#PATH#../factory/html/bibliography_template.html
 template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
 <!-- Generate next navigation links -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
@@ -42,6 +58,10 @@ sort	add	Ascending	Seq2
 sort	set		params
 template	open	file		#PATH#../factory/sub/nextnav_template.html
 template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
 <!-- Generate next navigation for index pages -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
@@ -50,11 +70,19 @@ sort	add	Ascending	Seq2
 sort	set		params
 template	open	file		#PATH#../factory/sub/nextnav_index_template.html
 template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
 <!-- Generate Home page -->
 input	set		normalization	0
 input	open	notenik		#PATH#../home/
 template	open	text		#PATH#../factory/home_template.html
 template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
 <!-- Generate index (table-of-contents) pages -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
@@ -63,8 +91,42 @@ sort	add	Ascending	Seq2
 sort	set		params
 template	open	file		#PATH#../factory/sub/index_template.html
 template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
+<!-- Generate index (table-of-contents) page for tracks sorted by artist -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+filter	add	equals	Section	Artists
+filter	set		params
+sort	add	Ascending	Last Name First
+sort	set		params
+template	open	file		#PATH#../factory/sub/index_tracks_by_artist_template.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
+<!-- Generate index (table-of-contents) page for tracks sorted by title -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+filter	add	equals	Section	Tracks
+filter	set		params
+sort	add	Ascending	Title
+sort	set		params
+template	open	file		#PATH#../factory/sub/index_tracks_by_title_template.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
 <!-- Generate pages -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
 template	open	file		#PATH#../factory/sub/page_template.html
 template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
