@@ -1,0 +1,70 @@
+Changes to ??Reason to Rock?? are listed below, with the most recent ones first.
+
+; Version 2.10 -- Released July 31, 2010 : E-book released in the EPUB format, compatible with Apple's iBooks for the iPad, as well as other e-book readers.
+
+; Version 2.00 -- Released June 14, 2009 : Completed conversion to XHTML, redesigned look and feel of site, cleaned up dead links.
+
+; Version 1.70 -- Released March 9, 2008 : Continued conversion to XHTML, and added new chapters on "Jefferson Airplane":../artists/jefferson_airplane.html and their recording ""We Can Be Together":../tracks/we_can_be_together.html." Also added a section on the tenacity of the composer/interpreter model to the "Epilogue":epilogue.html.
+ 
+; Version 1.60 -- Released July 1, 2007 : Began conversion to XHTML, and added new chapters on "Robert Johnson":../artists/robert_johnson.html and his recording ""Come On In My Kitchen":../tracks/come_on_in_my_kitchen.html".
+ 
+; Version 1.51 -- Released January 21, 2007 : Added some quotations from Ahmet Ertegun to the "Buffalo Springfield":../artists/buffalo_springfield.html page and the "Recordings as Input to the Creative Process":../elements/records_in.html page.
+ 
+; Version 1.50 -- Released December 10, 2006 : Added a new chapter on "Technology":../elements/technology.html.
+ 
+; Version 1.40 -- Released June 10, 2006 : Added some quotations from "??Like A Rolling Stone: Bob Dylan at the Crossroads??":http://www.amazon.com/exec/obidos/ASIN/158648382X/reasontorock-20, and some additional material to the chapter on "Like A Rolling Stone":../tracks/like_a_rolling_stone.html. Also added a diagram to the "Overview":../elements/overview.html chapter.
+ 
+; Version 1.32 -- Released September 3, 2005 : Added some quotations from "??Rock And Roll Is Here To Stay??":http://www.amazon.com/exec/obidos/ASIN/0393047008/reasontorock-20, and some additional material to the chapter on "Recordings as Input to the Creative Process":../elements/records_in.html.
+ 
+; Version 1.30 -- Released December 18, 2004 : Set up an "iMix playlist":http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPublishedPlaylist?id=63358 in the iTunes music store with most of the tracks discussed on ??Reason to Rock?? (all those available from that source).
+ 
+; Version 1.20 -- Released April 11, 2004 : Added a great Robbie Robertson quote about Bob Dylan to the opening of the "Poetry Plus":../elements/words.html chapter, plus a whole new chapter on Dylan's great recording, "Like A Rolling Stone":../tracks/like_a_rolling_stone.html.
+ 
+; Version 1.10 -- Released May 20, 2003 : Added chapters on "Bruce Springsteen":../artists/bruce_springsteen.html and his track "Rosalita (Come Out Tonight)":../tracks/rosalita.html. Also modified the "Liberation":../elements/liberation.html chapter by adding some Bruce Springsteen quotations and some new closing thoughts.
+ 
+; Version 1.00 -- Released July 13, 2002 :  First complete draft of the entire book published on the Web. Added an ""Overview":../elements/overview.html" chapter introducing the section on the Elements of rock. Added a couple of example Tracks at the end of each Element chapter. These essentially provide an alternative path through the material. Renamed the "Status (What's New?)" chapter (this page) to "Version History."  Moved this chapter from the "Intro" section to the "Closing" section.
+ 
+; Version 0.33 -- Released May 19, 2002 : Added chapters on "The Beach Boys":../artists/beach_boys.html and their track "It's About Time":../tracks/its_about_time.html. 
+ 
+; Version 0.32 -- Released April 12, 2002 : Added chapters on the "Velvet Underground":../artists/velvet_underground.html and their track "Sweet Jane":../tracks/sweet_jane.html. Also added an illuminating comment from Sterling Morrison to the "Chuck Berry":../artists/chuck_berry.html page.
+ 
+; Version 0.31 -- Released March 21, 2002 : Added a "feedback":../closing/feedback.html page, to make it a bit easier for people to send me comments.
+ 
+; Version 0.30 -- Released March 2, 2002 : Added chapters on "Bob Seger":../artists/bob_seger.html and his track "Turn the Page":../tracks/turn_the_page.html.
+ 
+; Version 0.29 -- Released February 5, 2002 : Added chapters on "Traffic":../artists/traffic.html and their track "You Can All Join In":../tracks/you_can_all_join_in.html. Reorganized a bit, moving some of the less interesting stuff from the Intro section to the Closing section. Added a new chapter to the Closing section that lists all of the "Five Star Albums":../closing/five_star_albums.html.
+ 
+; Version 0.28 -- Released January 12, 2002 : Expanded the chapter on the "Theme of Liberation":../elements/liberation.html and added chapters on "Cream":../artists/cream.html and their track "White Room":../tracks/white_room.html.
+ 
+; Version 0.27 -- Released December 30, 2001 : Added chapters on "Buffalo Springfield":../artists/buffalo_springfield.html and their track "For What It's Worth":../tracks/for_what_its_worth.html.
+ 
+; Version 0.24 -- Released December 2, 2001 : Added chapters on "The Band":../artists/band.html and their track "King Harvest (Has Surely Come)":../tracks/king_harvest.html. Changed link colors to more closely follow normal Web conventions, using blue for unvisited links and purple for visited links.
+ 
+; Version 0.23 -- Released November 21, 2001 : Added a "Bibliography":../closing/bibliography.html to the Closing section, and updated quotations throughout the site to provide bibliographic links.
+ 
+; Version 0.22 -- Released November 4, 2001 : Added an "Epilogue":../closing/epilogue.html to the Closing section.
+ 
+; Version 0.21 -- Released October 21, 2001 : Added chapters on "The Beatles":../artists/beatles.html and their track "Rain":../tracks/rain.html. Redesigned the Home page. Changed the default font for body text to 'Georgia'.
+ 
+; Version 0.20 -- Released September 29, 2001 : Added a chapter on "The Artistic Basics":../elements/basics.html to the Elements section.
+ 
+; Version 0.19 -- Released September 20, 2001 : Added chapters on "The Rolling Stones":../artists/rolling_stones.html and their track "Sympathy For The Devil":../tracks/sympathy.html.
+ 
+; Version 0.18 -- Released September 9, 2001 : Added a chapter on "The Big Beat":../elements/big_beat.html to the Elements section.
+ 
+; Version 0.17 -- Released August 19, 2001 : Added chapters on artists "Bob Dylan":../artists/bob_dylan.html, "Jimi Hendrix":../artists/jimi_hendrix.html and "Derek And The Dominos":../artists/dominos.html, along with their tracks ""All Along The Watchtower":../tracks/watchtower.html" and ""Layla":../tracks/layla.html".
+ 
+; Version 0.16 -- Released August 5, 2001 : Added the first draft of the ""Summary":../elements/summary.html" to the Elements section, ""Intended Audience":../intro/audience.html" and ""Why Another Book on Rock Music?":../intro/why_another_book.html" chapters to the Introductory section, and the ""Electronically Amplified Instrumentation":../elements/electricity.html" chapter to the Elements section.
+ 
+; Version 0.15 -- Released July 15, 2001 : Added a chapter on "The Kinks":../artists/kinks.html to the Artists section, plus a chapter on their song, ""Education":../tracks/education.html" to the Tracks section.
+ 
+; Version 0.14 -- Released July 1, 2001 : Added the ""Poetry Plus":../elements/words.html" chapter to the Elements section, revised the "dedication":../intro/dedication.html page, and the "Purpose":../intro/purpose.html chapter.
+ 
+; Version 0.13 -- Released June 17, 2001 : Added the "Phil Spector":../artists/phil_spector.html chapter to the Artists section, plus the ""Christmas (Baby Please Come Home":../tracks/xmas.html" chapter to the Tracks section.
+ 
+; Version 0.12 -- Released June 1, 2001 : Added the ""New Forms of Collaboration":../elements/collaboration.html" chapter to the second section. Also made some minor formatting changes to the site.
+ 
+; Version 0.11 -- Released May 20, 2001 : Published the second chapter of the Elements section, ""Recordings as Input to the Creative Process,":../elements/records_in.html" plus the third chapter of the Elements section, ""Recordings as Works of Art":../elements/records_out.html."
+ 
+; Version 0.10 -- Released April 26, 2001 : Published first draft of entire Intro section, the first chapter of the Elements section -- ""The Theme of Liberation":../elements/liberation.html" -- plus Artist and Track info for "Chuck Berry":../artists/chuck_berry.html and "Jesse Winchester":../artists/jesse_winchester.html. 
+

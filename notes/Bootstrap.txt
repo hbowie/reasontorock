@@ -6,3 +6,22 @@ Body:
  
 Version 3.3.6
 
+Used for Adaptive Layout
+
+12 columns across (max)
+
+If you have more columns than will fit, then they will flow lower on the page
+
+Four sets of column classes:
+
+1. col-xs for extra small displays: phones (screen width < 768px)
+
+2. col-sm for smaller displays: tablet in portrait (screen width ≥ 768px)
+
+3. col-md for medium displays: normal desktop displays, tablets in landscape  (screen width ≥ 992px)
+
+4. col-lg for larger displays: large desktop displays (screen width ≥ 1200px)
+
+if classes for larger columns are omitted, Bootstrap will automatically follow the layout for the smallest screen size scpecified.
+
+

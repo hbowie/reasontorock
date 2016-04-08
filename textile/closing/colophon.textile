@@ -1,0 +1,26 @@
+When I originally authored ??Reason to Rock?? in 2000 and 2001, I created the text directly in HTML, using BBEdit and its templating system to build the original Web site. 
+
+Over the years, as I continued to add to the original work and make minor revisions from time to time: 
+
+* direct authoring in HTML proved to be increasingly awkward;
+* the HTML syntax of the original site became increasingly out-of-date;
+* some opportunities for navigational improvements emerged;
+* the overall look of the site felt increasingly dated. 
+
+In late 2008, I finally reached a tipping point and began to explore alternatives for addressing these issues. The list below includes the results of this thought process that culminated in a new site design launched in 2009. 
+
+**Made on a Mac** -- All of the work on this site has been done on Macintosh computers. 
+
+**Static HTML Pages** -- While I considered using a Content Management System such as TextPattern or Drupal, I ultimately preferred to maintain the site in static HTML, to optimize load times, to maximize the site's portability and to allow myself the broadest options in overall design of the site. 
+
+**Textile** -- After considering a number of different options for a lightweight markup language, I settled on the Textile format since it was the one that provided the most useful options to me, including the ability to specify class names for paragraphs. 
+
+**TextMongrel** -- I wrote a small Java program that would help with the conversion of the existing text from native HTML to the Textile format. This may eventually be published on "PowerSurgePub.com":http://www.powersurgepub.com, but I haven't yet had the time to make the program general enough to be useful to a broader audience. 
+
+**PSTextMerge** -- I wrote some additional Java code to do the conversion from Textile to HTML, and incorporated that into an as-yet-unreleased new version of PSTextMerge. Using a few folders of Textile source files, some HTML template files, and a couple of spreadsheets listing the primary pages of the site and various items that appear on those pages, PSTextMerge now merges all of this together and regenerates the entire site for me, on demand, whenever any content changes, in a matter of minutes. What's more, the templating system is flexible enough to allow me to change page layouts in any way I want, without restrictions of any kind. 
+
+**BBEdit** -- BBEdit is still my preferred text editor. I use it to create and maintain the HTML templates for the site, as well as all of the site's textual content. 
+
+**GraphicConverter** -- I've used this shareware gem to format and size all of the graphics that are used on the site. 
+
+**Amazon.com** -- This site and its author are part of the "Amazon.com Associates":https://affiliate-program.amazon.com/ program. This means that I earn a small referral fee on any books or CDs a reader purchases at Amazon.com after following a link from my site to theirs. Products purchased in this way don't cost the buyer any more than if they had gone to Amazon.com directly. On pages where I recommend particular CDs, you can follow either the text links or the album cover links to an Amazon page featuring that particular CD.

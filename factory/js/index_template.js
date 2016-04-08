@@ -131,6 +131,20 @@ artist[ix] = "=$artist_link$=";
 ix++
 <?loop?>
 var max = ix;
+
+function writeAlbumPic(rel, artist1, album1) {
+	document.write('<a class="thumbnail" href="');
+	document.write(rel);
+	document.write('artists/');
+	document.write (artist1);
+	document.writeln('">');
+	document.write ('<img src="');
+	document.write (rel);
+	document.write ('images/albums/');
+	document.write (album1);
+	document.writeln ('" alt=" "><\/a>');
+}
+
 function rand(n) {
   seed = (0x015a4e35 * seed) % 0x7fffffff;
   return (seed >> 16) % n;

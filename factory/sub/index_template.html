@@ -2,7 +2,7 @@
 <?definegroup 1 "=$folder$="?>
 <?ifendgroup 1?>
           </table>
-<?include "../nextnav/=$fldr$=/index.html"?>
+<?include "../../nextnav/=$fldr$=/index.html"?>
         </div>
 
         <!-- Right Hand Column: Album Covers -->
@@ -31,12 +31,15 @@
       </div> <!-- end of middle row -->
 
       <!-- Footer -->
+
+<!-- #bbinclude "page-footer.html" -->
       <div class="row">
         <div class="col-md-12 text-center">
           <hr>
           <p><a href="../closing/copyrights.html">Copyright</a> &copy; 2001-2016 by <a href="../closing/author.html">Herb Bowie</a> except where otherwise noted </p>
         </div>
       </div>
+<!-- end bbinclude -->
 
     </div>
 
@@ -87,7 +90,7 @@
       <!-- Header -->
 <!-- #bbinclude "page-header.html" -->
       <div class="page-header text-center">
-          <img alt="Old 45 RPM Record" src="../images/logos/record-sq64.png" width="64" height="64">
+          <a href=".././"><img alt="Old 45 RPM Record" src="../images/logos/record-sq64.png" width="64" height="64"></a>
           <h1>Reason to Rock</h1>
           <h2>Rock Music as Art Form</h2>
       </div>
@@ -134,7 +137,7 @@
             <li><a href=".././">Home</a></li>
             <li class="active"><a href="./">=$section$=</a></li>
           </ol>
-          <h1>=$section$=</h1>
+          <h1 class="accent" >=$section$=</h1>
           <table id="toc">
 <?if "=$folder$=" = "tracks"?>
             <tr>

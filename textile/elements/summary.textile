@@ -1,0 +1,182 @@
+
+
+Although the development of the rock aesthetic happened gradually over a number of years, and included trends begun by other musical genres, the end result was a radically new art form. The lyrics were the foundation. Compared to popular and traditional song forms that preceded rock, the best rock music incorporated a use of language and a breadth of subject matter inherited from the poetic tradition. The expressiveness of the singer's voice and the instrumental backing were incorporated into this new kind of poetry, though, adding other means to extend and reinforce the meanings of the words. The ability to precisely record sounds redefined the artistic unit of expression, and allowed styles and influences to transcend regional boundaries. How notes were played or sung began to matter as much or more than the notes themselves. Small ensembles that combined the tightness and spontaneity of their live performances with the thoughtful, deliberate creative potential offered by the recording studio produced recorded sound that offered the best of both avenues of expression. 
+
+The following two tables summarize this section in a more systematic way. This first table shows the impact of technical progress on the development of rock music.
+                           
+<table border=0 cellspacing=4 cellpadding=4 align=center summary="Technical Progress" class="shaded">
+
+	<tr class="shaded">
+		<th class=shaded>
+		  Technical Innovation</th>
+		<th class=shaded>
+		  Impact on Rock</th>
+	</tr>
+	
+	<tr class="shaded">
+		<td class=shaded>
+		  Recordings available as input to rock musicians</td>
+		<td class=shaded>
+		  &#8226; Influences could now be global, and not just regional;<br />
+		  &#8226; Availability of multiple musical styles on record increased breadth of rock's musical palette. 
+		</td>
+	</tr>
+	
+	<tr class="shaded">
+		<td class=shaded>
+		  Recordings available as output of artistic expression</td>
+		<td class=shaded>
+		  &#8226; Changed the unit of artistic expression from the composed song or live performance to the recorded track;<br />
+		  &#8226; Changed the aesthetic to place much greater emphasis on elements of the recorded music that could not be captured by traditional musical notation. 
+		</td>
+	</tr>
+
+	<tr class="shaded">
+		<td class=shaded>
+		  Electronic amplification</td>
+		<td class=shaded>
+		  &#8226; Allowed small ensembles to play to large live audiences;<br />
+		  &#8226; Allowed sound of the instruments to be altered and magnified. 
+		</td>
+	</tr>
+	
+</table>
+
+
+The next table shows relationships between rock music and other art forms. The middle column indicates whether this is a relationship in which the two forms are alike ("=") or different ("&lt;&gt;").
+                           
+<table border=0 cellspacing=4 cellpadding=4 align=center summary="Other Art Forms" class="shaded">
+
+	<tr class="shaded">
+		<th class="shaded">
+		  Related Art Form</th>
+		<th class="shaded">
+		  = / &lt;&gt; </th>
+		<th class="shaded">
+		  Relationship</th>
+	</tr>
+	
+	<tr class="shaded">
+		<td class=shaded>
+		  Poetry</td>
+		<td class="shadedCentered">
+		  = </td>
+		<td class=shaded>
+		  Rock music is similar to poetry in that: <br />
+		  &#8226; the words matter, <br />
+		  &#8226; the meaning is compact, <br />
+		  &#8226; most works are relatively short, <br />
+		  &#8226; they both have broad ranges of subject matter and theme, and <br />
+		  &#8226; they use rhythm to add power to their expression. <br />
+		  (See &#8220;<a href="words.html">Poetry Plus</a>&#8221;
+		  &amp; &#8220;<a href="big_beat.html">The Big Beat</a>.&#8221;)
+		</td>
+	</tr>
+	
+	<tr class="shaded">
+		<td class=shaded>
+		  Poetry</td>
+		<td class="shadedCentered">
+		  = </td>
+		<td class=shaded>
+		  In both poetry and rock, the primary artistic unit is the shorter work (poem/track), even though these smaller works are usually published as parts of larger collections (books/albums/anthologies). (See &#8220;<a href="records_out.html">Recordings as Works of Art</a>.&#8221;)
+		</td>
+	</tr>
+	
+	<tr class="shaded">
+		<td class=shaded>
+		  Poetry</td>
+		<td class="shadedCentered"> &lt;&gt; </td>
+		<td class=shaded>
+		  Rock music is different from poetry in that music is used to extend and amplify the meaning and impact of the words. (See &#8220;<a href="words.html">Poetry Plus</a>.&#8221;)</td>
+	</tr>
+	<tr class="shaded">
+		<td class=shaded>
+		  Prior Popular Music</td>
+		<td class="shadedCentered">
+		  &lt;&gt; </td>
+		<td class=shaded>
+		  Styles and techniques of prior popular music developed by region, since these were passed on primarily through live performances. For rock music, however, styles and influences transcended geographical regions, since they were passed on through recordings. This offered rock musicians broader stylistic palettes, resulting in greater eclecticism. (See &#8220;<a href="records_in.html">Recordings as Input to the Creative Process</a>.&#8221;
+		</td>
+	</tr>
+
+	<tr class="shaded">
+		<td class=shaded>
+		  Classical Music</td>
+		<td class="shadedCentered">
+		  &lt;&gt; </td>
+		<td class=shaded>
+		  In classical music, and in European music in general, the composition is the primary work of art, and performance is a matter of interpreting the work. In rock music, however, a specific performance, as recorded, edited and published, is the primary work of art, and the composition is only one element of the finished work. In this sense, rock is to European music exactly as film is to theatre: in both of the earlier forms, the work of art was the composition as recorded on paper; in the later forms, the work of art was the edited performance as recorded on some more direct medium. (See &#8220;<a href="records_out.html">Recordings as Works of Art</a>.&#8221;)
+		</td>
+	</tr>
+
+	<tr class="shaded">
+		<td class=shaded>
+		  Film</td>
+		<td class="shadedCentered">
+		  = </td>
+		<td class=shaded>
+		  Rock music, like film, made use of new technology to allow specific performances to be exactly recorded, edited, reproduced, distributed and later played back for any audience at any time. (See &#8220;<a href="records_out.html">Recordings as Works of Art</a>.&#8221;)
+		</td>
+	</tr>
+
+	<tr class="shaded">
+		<td class=shaded>
+		  Film</td>
+		<td class="shadedCentered">
+		  = </td>
+		<td class=shaded>
+		  Rock music, like film, made use of new forms of collaboration, raising issues of responsibility for the primary artistic vision of a particular work, and of continuity throughout a body of work. (See &#8220;<a href="collaboration.html">New Forms of Collaboration</a>.&#8221;)
+		</td>
+	</tr>
+	
+	<tr class="shaded">
+		<td class=shaded>
+		  Film</td>
+		<td class="shadedCentered">
+		  &lt;&gt; </td>
+		<td class=shaded>
+		  Unlike film, in which the director was ultimately seen to be the primary <i>auteur</i> of the finished work, responsibility for the creative vision of rock music could be with a producer, a singer/songwriter, or a small group of artistically compatible and synergistic musicians. (See &#8220;<a href="collaboration.html">New Forms of Collaboration</a>.&#8221;)
+		</td>
+	</tr>
+	
+	<tr class="shaded">
+		<td class=shaded>
+		  Modern Art</td>
+		<td class="shadedCentered">
+		  = </td>
+		<td class=shaded>
+		  Just as modern art confused some viewers by abandoning strict representation, bringing background elements of form and color into the foreground, rock music confused some listeners by bringing the beat into the foreground, to compete with melody and lyrics. (See &#8220;<a href="big_beat.html">The Big Beat</a>.&#8221;)
+		</td>
+	</tr>
+	
+	<tr class="shaded">
+		<td class=shaded>
+		  Blues Music</td>
+		<td class="shadedCentered">
+		  &lt;&gt; </td>
+		<td class=shaded>
+		  Rock music has a theme of liberation, whereas the overriding theme of the blues is oppression. (See &#8220;<a href="liberation.html">The Theme of Liberation</a>.&#8221;)
+		</td>
+	</tr>
+	<tr class="shaded">
+		<td class=shaded>
+		  Jazz Music</td>
+		<td class="shadedCentered">
+		  &lt;&gt; </td>
+		<td class=shaded>
+		  Rock music has a theme of liberation, whereas the overriding theme of jazz is freedom. (See &#8220;<a href="liberation.html">The Theme of Liberation</a>.&#8221;)
+		</td>
+	</tr>
+	<tr class="shaded">
+		<td class=shaded>
+		  Jazz Music</td>
+		<td class="shadedCentered">
+		  &lt;&gt; </td>
+		<td class=shaded>
+      Rock music's unit of artistic expression is the recording, whereas jazz tends to favor the live performance as the primary work of art. (See &#8220;<a href="records_in.html">Recordings as Works of Art</a>.&#8221;)
+		</td>
+	</tr>
+
+</table>
+

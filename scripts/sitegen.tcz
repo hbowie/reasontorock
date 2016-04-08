@@ -31,6 +31,25 @@ sort	add	Ascending	Pub Date
 sort	set		params
 template	open	file		#PATH#../factory/html/bibliography_template.html
 template	generate
+<!-- Generate next navigation links -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+sort	add	Ascending	Reading Seq
+sort	add	Ascending	Year
+sort	add	Ascending	Seq
+sort	add	Ascending	Seq1
+sort	add	Ascending	Seq2
+sort	set		params
+template	open	file		#PATH#../factory/sub/nextnav_template.html
+template	generate
+<!-- Generate next navigation for index pages -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+sort	add	Ascending	Seq1
+sort	add	Ascending	Seq2
+sort	set		params
+template	open	file		#PATH#../factory/sub/nextnav_index_template.html
+template	generate
 <!-- Generate Home page -->
 input	set		normalization	0
 input	open	notenik		#PATH#../home/

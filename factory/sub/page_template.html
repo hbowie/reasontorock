@@ -37,7 +37,7 @@
       <!-- Header -->
 <!-- #bbinclude "page-header.html" -->
       <div class="page-header text-center">
-          <img alt="Old 45 RPM Record" src="../images/logos/record-sq64.png" width="64" height="64">
+          <a href=".././"><img alt="Old 45 RPM Record" src="../images/logos/record-sq64.png" width="64" height="64"></a>
           <h1>Reason to Rock</h1>
           <h2>Rock Music as Art Form</h2>
       </div>
@@ -80,25 +80,34 @@
 
         <!-- Center Column: Text -->
         <div class="col-md-8 col-lg-6">
+
+          <!-- Breadcrumbs -->
           <ol class="breadcrumb">
-            <li class="active"><a href="./">Home</a></li>
+            <li><a href=".././">Home</a></li>
+            <li><a href="./">=$section$=</a></li>
+            <li class="active"><a href="=$filename$=.html">=$title$=</a></li>
           </ol>
+
+<!-- Years for artists and tracks -->
+<?if "=$years$=" ?>
           <div class="well years">
             =$years&h$=
           </div>
-          <h1>=$title$=</h1>
+<?endif?>
+
+          <h1 class="accent">=$title$=</h1>
 <?if "=$track1filename$=" ?>
           <h3>Track analysis for &ldquo;<a href="../tracks/=$track1filename$=.html">=$track1title$=</a>&rdquo;</h3>
 <?endif?>
-<?include "../=$source$=/=$folder$=/=$filename$=.=$source$="?>
+<?include "../../=$source$=/=$folder$=/=$filename$=.=$source$="?>
 <?if "=$folder$=" = "artists"?>
-<?include "../albums/=$filename$=.html"?>
-<?include "../links/=$filename$=.html"?>
+<?include "../../albums/=$filename$=.html"?>
+<?include "../../links/=$filename$=.html"?>
 <?endif?>
 <?if "=$folder$=" = "elements"?>
-<?include "../bottomnav/elements/=$filename$=_tracks.html"?>
+<?include "../../bottomnav/elements/=$filename$=_tracks.html"?>
 <?endif?>
-<?include "../nextnav/=$folder$=/=$filename$=.html"?>
+<?include "../../nextnav/=$folder$=/=$filename$=.html"?>
 
         </div>
 
@@ -124,12 +133,15 @@
       </div> <!-- end of middle row -->
 
       <!-- Footer -->
+
+<!-- #bbinclude "page-footer.html" -->
       <div class="row">
         <div class="col-md-12 text-center">
           <hr>
-          <p><a href="closing/copyrights.html">Copyright</a> &copy; 2001-2016 by <a href="closing/author.html">Herb Bowie</a> except where otherwise noted </p>
+          <p><a href="../closing/copyrights.html">Copyright</a> &copy; 2001-2016 by <a href="../closing/author.html">Herb Bowie</a> except where otherwise noted </p>
         </div>
       </div>
+<!-- end bbinclude -->
 
     </div>
 
