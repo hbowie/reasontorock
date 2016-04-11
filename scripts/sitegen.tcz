@@ -35,6 +35,34 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+<!-- Generate sidebars for artists -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/items.xls
+sort	add	Ascending	Artist File Name
+sort	add	Ascending	Album Type
+sort	add	Ascending	Pub Date
+sort	add	Ascending	Seq
+sort	set		params
+template	open	file		#PATH#../factory/sidebars/sidebar_template_artists.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
+<!-- Generate sidebars for tracks-->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/items.xls
+sort	add	Ascending	Track File Name
+sort	add	Ascending	Album Type
+sort	add	Ascending	Pub Date
+sort	add	Ascending	Seq
+sort	set		params
+template	open	file		#PATH#../factory/sidebars/sidebar_template_tracks.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
 <!-- Generate bibliography body -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
@@ -69,6 +97,19 @@ sort	add	Ascending	Seq1
 sort	add	Ascending	Seq2
 sort	set		params
 template	open	file		#PATH#../factory/sub/nextnav_index_template.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
+<!-- Generate Example Tracks for Elements -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+sort	add	Ascending	Element 1 File Name
+sort	add	Ascending	Year
+sort	add	Ascending	Seq
+sort	set		params
+template	open	file		#PATH#../factory/sub/bottomnav_element_tracks_template.html
 template	generate
 filter	clear
 filter	set		params
@@ -116,6 +157,53 @@ filter	set		params
 sort	add	Ascending	Title
 sort	set		params
 template	open	file		#PATH#../factory/sub/index_tracks_by_title_template.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
+<!-- Generate albums for each artist -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/items.xls
+sort	add	Ascending	Artist File Name
+sort	add	Ascending	Album Type
+sort	add	Ascending	Pub Date
+sort	add	Ascending	Seq
+sort	set		params
+template	open	file		#PATH#../factory/sub/albums_by_artist_template.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
+<!-- Generate links for each artist -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/items.xls
+sort	add	Ascending	Artist File Name
+sort	add	Ascending	Item Title
+sort	set		params
+template	open	file		#PATH#../factory/sub/links_by_artist_template.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
+<!-- Generate list of 5-star albums -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/items.xls
+filter	add	equals	Type	albums
+filter	add	equals	Rating	5
+filter	add	equals	Home Page?	Yes
+filter	add	greater than	ID
+filter	set		params
+sort	add	Ascending	Last Name First
+sort	add	Ascending	Album Type
+sort	add	Ascending	Pub Date
+sort	add	Ascending	Seq
+sort	set		params
+template	open	file		#PATH#../factory/sub/five_star_albums_template.html
+template	generate
+template	open	file		#PATH#../factory/sidebars/sidebar_template_five_star_albums.html
 template	generate
 filter	clear
 filter	set		params

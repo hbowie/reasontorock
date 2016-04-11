@@ -1,0 +1,39 @@
+module	action	modifier	object	value
+<!-- Generate epub chapters -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+template	open	file		#PATH#../factory/epub_chapter_template.html
+template	generate
+<!-- Generate epub toc.ncx -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+sort	add	Ascending	Reading Seq
+sort	add	Ascending	Year
+sort	add	Ascending	Seq
+sort	add	Ascending	Seq1
+sort	add	Ascending	Seq2
+sort	set		params
+template	open	file		#PATH#../factory/epub_toc_template.ncx
+template	generate
+<!-- Generate epub content manifest -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+sort	add	Ascending	Reading Seq
+sort	add	Ascending	Year
+sort	add	Ascending	Seq
+sort	add	Ascending	Seq1
+sort	add	Ascending	Seq2
+sort	set		params
+template	open	file		#PATH#../factory/epub_content_manifest_template.xml
+template	generate
+<!-- Generate epub content.opf -->
+input	set		normalization	0
+input	open	xls		#PATH#../lists/pages.xls
+sort	add	Ascending	Reading Seq
+sort	add	Ascending	Year
+sort	add	Ascending	Seq
+sort	add	Ascending	Seq1
+sort	add	Ascending	Seq2
+sort	set		params
+template	open	file		#PATH#../factory/epub_content_template.opf
+template	generate

@@ -1,0 +1,64 @@
+<?output "../epub/toc.ncx"?>
+<?xml version="1.0"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<!-- Created by pstextmerge using template epub_toc_template.ncx -->
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="http://www.reasontorock.com/ebook/reasontorock.epub"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+     <text>Reason to Rock</text>
+  </docTitle>
+  <navMap>
+     <navPoint id="navPoint-1" playOrder="1">
+	   <navLabel>
+		  <text>Title Page</text>
+	   </navLabel>
+	   <content src="title.html"/>
+	 </navPoint>
+     <navPoint id="navPoint-2" playOrder="2">
+	   <navLabel>
+		  <text>Copyright</text>
+	   </navLabel>
+	   <content src="copyright.html"/>
+	 </navPoint>
+<?set counter = 2 ?>
+<?set section-counter = 0 ?>
+<?nextrec?>
+<?if "=$source$=" ?>
+<?definegroup 1 "=$readingseq$=" ?>
+<?ifendgroup 1 ?>
+     </navPoint>
+<?ifnewgroup 1 ?>
+<?set section-counter ++ ?>
+<?set counter ++ ?>  
+     <navPoint id="navPoint-=$counter$=" playOrder="=$counter$=">
+       <navLabel>
+<?if =$readingseq$= == "C" ?>
+		  <text>Section =$section-counter$=: Artists &amp; Tracks</text>
+<?endif?>
+<?if =$readingseq$= != "C" ?>
+          <text>Section =$section-counter$=: =$section$=</text>
+<?endif?>
+       </navLabel>
+       <content src="=$folder$=/section_title.html"/>
+<?endif?>
+<?set counter ++ ?>  
+		 <navPoint id="navPoint-=$counter$=" playOrder="=$counter$=">
+		   <navLabel>
+<?if "=$section$=" == "Tracks" ?>
+			  <text>&#8195;&#8195;&#8220;=$title$=&#8221;</text>
+<?endif?>
+<?if "=$section$=" != "Tracks" ?>
+              <text>&#8195;=$title$=</text>
+<?endif?>
+		   </navLabel>
+		   <content src="=$folder$=/=$filename$=.html"/>
+		 </navPoint>
+<?endif?>
+<?loop?>
+  </navMap>
+</ncx>

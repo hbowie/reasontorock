@@ -1,0 +1,7 @@
+<?output "../includes/audio_content_manifest.xml"?>
+<!-- Created by pstextmerge using template epub_audio_manifest_template.xml -->
+<?nextrec?>
+<?if "=$type$=" == "File" ?>
+      <item id="audio_=$folder1$=_=$filename&B$=" href="audio/=$folder1$=/=$filename$=" media-type="mpeg/=$fileext$=" />
+<?endif?>
+<?loop?>

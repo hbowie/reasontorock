@@ -1,0 +1,7 @@
+<?output "../includes/images_content_manifest.xml"?>
+<!-- Created by pstextmerge using template epub_images_manifest_template.xml -->
+<?nextrec?>
+<?if "=$type$=" == "File" ?>
+      <item id="images_=$folder1$=_=$filename&B$=" href="images/=$folder1$=/=$filename$=" media-type="image/=$fileext$=" />
+<?endif?>
+<?loop?>

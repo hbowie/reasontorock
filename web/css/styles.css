@@ -50,6 +50,10 @@ td.shadedCentered
 
 .biblio { }
 
+.navbar {
+	font-family: 'concourse_t4regular', Georgia, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .nextnav {
 	margin-top: 3em;
 	text-align: center;
@@ -58,4 +62,15 @@ td.shadedCentered
 
 .shopItem {
 	margin-bottom: 3em;
+}
+
+a.thumbnail:link {
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.stars {
+	color: #992528;
+	font-size: 0.8em;
+	text-align: center;
 }

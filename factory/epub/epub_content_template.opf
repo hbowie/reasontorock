@@ -1,0 +1,54 @@
+<?output "../epub/content.opf"?>
+<?xml version="1.0"?>
+
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" version="2.0">
+
+   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:opf="http://www.idpf.org/2007/opf">
+      <dc:title>Reason to Rock: Rock Music as Art Form</dc:title>
+      <dc:language xsi:type="dcterms:RFC3066">en</dc:language>
+      <dc:identifier id="dcidid" opf:scheme="URI">http://www.reasontorock.com/ebook/reasontorock.epub</dc:identifier>
+      <dc:subject>Non-fiction, rock music, aesthetics, education</dc:subject>
+      <dc:description>A book on the aesthetics of rock music</dc:description>
+      <dc:relation>http://www.reasontorock.com/</dc:relation>
+      <dc:creator>Herb Bowie</dc:creator>
+      <dc:publisher>Herb Bowie</dc:publisher>
+      <dc:date xsi:type="dcterms:W3CDTF">2007-12-28</dc:date>
+      <dc:rights>Copyright (c) 2001-2012, Herb Bowie. Creative Commons (by-nc-nd/3.0) License.</dc:rights>
+      <meta name="cover" content="cover-image"/>
+   </metadata>
+
+   <manifest>
+      <item id="ncx"         href="toc.ncx"                 media-type="application/x-dtbncx+xml" />
+      <item id="css"         href="styles.css"              media-type="text/css" />
+      <item id="cover"       href="cover.html"              media-type="application/xhtml+xml"/>
+      <item id="cover-image" href="cover.png"               media-type="image/png"/>
+      <item id="title-page"  href="title.html"              media-type="application/xhtml+xml" />
+      <item id="copyright"   href="copyright.html"          media-type="application/xhtml+xml" />
+<?include "../includes/epub_content_manifest.xml" ?>
+<?include "../includes/images_content_manifest.xml" ?>
+   </manifest>
+
+   <spine toc="ncx">
+      <itemref idref="cover"      linear="no" /> 
+      <itemref idref="title-page" />
+      <itemref idref="copyright" />
+<?nextrec?>
+<?if "=$source$=" ?>
+<?definegroup 1 "=$readingseq$=" ?>
+<?ifnewgroup 1 ?>
+      <itemref idref="=$folder$=-section-title" />
+<?endif?>
+      <itemref idref="=$folder$=-=$filename$=" />
+<?endif?>
+<?loop?>
+   </spine>
+   
+   <guide>
+     <reference href="cover.html" type="cover" title="Cover"/>
+     <reference href="title.html" type="title-page" title="Title Page"/>
+   </guide>
+
+</package>

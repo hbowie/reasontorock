@@ -1,41 +1,4 @@
 module	action	modifier	object	value
-<!-- Generate sidebars that appear on the right side of the page -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
-sort	add	Ascending	Folder
-sort	add	Ascending	File Name
-sort	add	Ascending	Sidebar Seq
-sort	set		params
-template	open	file		#PATH#../factory/sidebar_template.html
-template	generate
-<!-- Generate sidebars for artists -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
-sort	add	Ascending	Artist File Name
-sort	add	Ascending	Album Type
-sort	add	Ascending	Pub Date
-sort	add	Ascending	Seq
-sort	set		params
-template	open	file		#PATH#../factory/sidebar_template_artists.html
-template	generate
-<!-- Generate albums for each artist -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
-sort	add	Ascending	Artist File Name
-sort	add	Ascending	Album Type
-sort	add	Ascending	Pub Date
-sort	add	Ascending	Seq
-sort	set		params
-template	open	file		#PATH#../factory/albums_by_artist_template.html
-template	generate
-<!-- Generate links for each artist -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
-sort	add	Ascending	Artist File Name
-sort	add	Ascending	Item Title
-sort	set		params
-template	open	file		#PATH#../factory/links_by_artist_template.html
-template	generate
 <!-- Generate Left Hand Navigation links -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
@@ -44,51 +7,6 @@ sort	add	Ascending	Year
 sort	add	Ascending	Seq
 sort	set		params
 template	open	file		#PATH#../factory/leftnav_element_tracks_template.html
-template	generate
-<!-- Generate list of 5-star albums -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
-filter	add	equals	Type	albums
-filter	add	equals	Rating	5
-filter	add	equals	Home Page?	Yes
-filter	add	greater than	ID
-filter	set		params
-sort	add	Ascending	Last Name First
-sort	add	Ascending	Album Type
-sort	add	Ascending	Pub Date
-sort	add	Ascending	Seq
-sort	set		params
-template	open	file		#PATH#../factory/five_star_albums_template.html
-template	generate
-template	open	file		#PATH#../factory/sidebar_template_five_star_albums.html
-template	generate
-<!-- Generate Bottom Navigation Links -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-sort	add	Ascending	Element 1 File Name
-sort	add	Ascending	Year
-sort	add	Ascending	Seq
-sort	set		params
-template	open	file		#PATH#../factory/bottomnav_element_tracks_template.html
-template	generate
-<!-- Generate next navigation links -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-sort	add	Ascending	Reading Seq
-sort	add	Ascending	Year
-sort	add	Ascending	Seq
-sort	add	Ascending	Seq1
-sort	add	Ascending	Seq2
-sort	set		params
-template	open	file		#PATH#../factory/nextnav_template.html
-template	generate
-<!-- Generate next navigation for index pages -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-sort	add	Ascending	Seq1
-sort	add	Ascending	Seq2
-sort	set		params
-template	open	file		#PATH#../factory/nextnav_index_template.html
 template	generate
 <!-- Generate left hand navigation -->
 <!-- Note that not all of the attempted includes files for tracks will be found, and this is normal. -->
@@ -111,47 +29,4 @@ sort	add	Ascending	Pub Date
 sort	add	Ascending	Seq
 sort	set		params
 template	open	file		#PATH#../factory/sidebar_template_tracks.html
-template	generate
-<!-- Generate epub chapters -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-template	open	file		#PATH#../factory/epub_chapter_template.html
-template	generate
-<!-- Generate epub toc.ncx -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-sort	add	Ascending	Reading Seq
-sort	add	Ascending	Year
-sort	add	Ascending	Seq
-sort	add	Ascending	Seq1
-sort	add	Ascending	Seq2
-sort	set		params
-template	open	file		#PATH#../factory/epub_toc_template.ncx
-template	generate
-<!-- Generate epub content manifest -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-sort	add	Ascending	Reading Seq
-sort	add	Ascending	Year
-sort	add	Ascending	Seq
-sort	add	Ascending	Seq1
-sort	add	Ascending	Seq2
-sort	set		params
-template	open	file		#PATH#../factory/epub_content_manifest_template.xml
-template	generate
-<!-- Generate epub content.opf -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-sort	add	Ascending	Reading Seq
-sort	add	Ascending	Year
-sort	add	Ascending	Seq
-sort	add	Ascending	Seq1
-sort	add	Ascending	Seq2
-sort	set		params
-template	open	file		#PATH#../factory/epub_content_template.opf
-template	generate
-<!-- Generate new pages -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-template	open	file		#PATH#../factory-new/page_template.html
 template	generate

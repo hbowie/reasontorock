@@ -1,0 +1,11 @@
+<?output "../includes/epub_content_manifest.xml"?>
+<!-- Created by pstextmerge using template epub_content_manifest_template.xml -->
+<?nextrec?>
+<?if "=$source$=" ?>
+<?definegroup 1 "=$readingseq$=" ?>
+<?ifnewgroup 1 ?>
+      <item id="=$folder$=-section-title" href="=$folder$=/section_title.html" media-type="application/xhtml+xml" />
+<?endif?>
+      <item id="=$folder$=-=$filename$=" href="=$folder$=/=$filename$=.html" media-type="application/xhtml+xml" />
+<?endif?>
+<?loop?>
