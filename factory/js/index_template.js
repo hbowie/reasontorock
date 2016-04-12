@@ -12,7 +12,7 @@ function randomQuote() {
     document.writeln('</a></p>');
     document.writeln('<p class="author">');
     document.writeln('&#8212;&nbsp;George Martin, The Beatles&#8217; producer <br />');
-    document.writeln('<a href="../closing/bibliography.html#beatles" target="biblio"><cite>The Beatles Anthology</cite></a>');
+    document.writeln('<a href="closing/bibliography.html#beatles" target="biblio"><cite>The Beatles Anthology</cite></a>');
     document.writeln('</p>');
     document.writeln('</blockquote>');
     break;
@@ -23,7 +23,7 @@ function randomQuote() {
     document.writeln('</a></p>');
     document.writeln('<p class="author">');
     document.writeln('&#8212;&nbsp;Robbie Robertson <br />');
-    document.writeln('<a href="../closing/bibliography.html#robertson"><cite>Rolling Stone Magazine</cite></a>');
+    document.writeln('<a href="closing/bibliography.html#robertson"><cite>Rolling Stone Magazine</cite></a>');
     document.writeln('</p>');
     document.writeln('</blockquote>');
     break;
@@ -50,7 +50,7 @@ function randomQuote() {
     document.writeln('</a></p>');
     document.writeln('<p class="author">');
     document.writeln('&#8212;&nbsp;John Lennon <br />');
-    document.writeln('<a href="../closing/bibliography.html#beatles"><cite>The Beatles Anthology</cite></a>');
+    document.writeln('<a href="closing/bibliography.html#beatles"><cite>The Beatles Anthology</cite></a>');
     document.writeln('</p>');
     document.writeln('</blockquote>');
     break;
@@ -61,7 +61,7 @@ function randomQuote() {
     document.writeln('</a></p>');
     document.writeln('<p class="author">');
     document.writeln('&#8212;&nbsp;<cite>The Philadelphia Enquirer,</cite> writing about The Band <br />');
-    document.writeln('<a href="../closing/bibliography.html#helm"><cite>This Wheel&#8217;s On Fire</cite></a>');
+    document.writeln('<a href="closing/bibliography.html#helm"><cite>This Wheel&#8217;s On Fire</cite></a>');
     document.writeln('</p>');
     document.writeln('</blockquote>');
     break;
@@ -72,7 +72,7 @@ function randomQuote() {
     document.writeln('</a></p>');
     document.writeln('<p class="author">');
     document.writeln('&#8212;&nbsp;Levon Helm <br />');
-    document.writeln('<a href="../closing/bibliography.html#helm"><cite>This Wheel&#8217;s On Fire</cite></a>');
+    document.writeln('<a href="closing/bibliography.html#helm"><cite>This Wheel&#8217;s On Fire</cite></a>');
     document.writeln('</p>');
     document.writeln('</blockquote>');
     break;
@@ -83,7 +83,7 @@ function randomQuote() {
     document.writeln('</a></p>');
     document.writeln('<p class="author">');
     document.writeln('&#8212;&nbsp;Levon Helm <br />');
-    document.writeln('<a href="../closing/bibliography.html#weinberg"><cite>The Big Beat: Conversations with Rock&#8217;s Great Drummers</cite></a>');
+    document.writeln('<a href="closing/bibliography.html#weinberg"><cite>The Big Beat: Conversations with Rock&#8217;s Great Drummers</cite></a>');
     document.writeln('</p>');
     document.writeln('</blockquote>');
     break;
@@ -94,7 +94,7 @@ function randomQuote() {
     document.writeln('</a></p>');
     document.writeln('<p class="author">');
     document.writeln('&#8212;&nbsp;Tom Wolfe <br />');
-    document.writeln('<a href="../closing/bibliography.html#wolfe"><cite>The Kandy-Kolored Tangerine-Flake Streamline Baby</cite></a>');
+    document.writeln('<a href="closing/bibliography.html#wolfe"><cite>The Kandy-Kolored Tangerine-Flake Streamline Baby</cite></a>');
     document.writeln('</p>');
     document.writeln('</blockquote>');
     break;
@@ -113,7 +113,7 @@ function randomQuote() {
     document.writeln('</a></p>');
     document.writeln('<p class="author">');
     document.writeln('&#8212;&nbsp;George Martin, The Beatles&#8217; producer <br />');
-    document.writeln('<a href="../closing/bibliography.html#beatles" target="biblio"><cite>The Beatles Anthology</cite></a>');
+    document.writeln('<a href="closing/bibliography.html#beatles" target="biblio"><cite>The Beatles Anthology</cite></a>');
     document.writeln('</p>');
     document.writeln('</blockquote>');
     break;

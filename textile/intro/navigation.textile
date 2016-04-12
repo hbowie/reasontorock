@@ -1,14 +1,8 @@
-Beginning with "version 2.10":../closing/versions.html, ??Reason to Rock?? is being published in multiple forms.
-
-* As a Web site located at ReasonToRock.com. This was the original form, is freely available to anyone with a Web browser, and includes cover art, hyperlinks to other sites, and brief audio clips of songs being discussed.
-
-* As an e-book, in the EPub format, suitable for reading using iBooks on an iPad, or on another device using any e-book reader compatible with the EPub standard. This form does not include cover art, audio clips or external hyperlinks. The e-book can be freely downloaded from ReasonToRock.com. 
-
-Exact navigational mechanisms through the work vary, depending on the form that is being used. In general, though, a reader can progress sequentially from front to back, can navigate to a particular section or chapter using the table of contents, or can follow hyperlinked references from one chapter to another. 
+A reader can progress sequentially from front to back, can navigate to a particular section or chapter using the table of contents, or can follow hyperlinked references from one chapter to another. 
 
 Bibliographic references for quotations are linked to their respective entries in the bibliography. 
 
-The Web site provides links to Amazon.com for recommended books and albums and bibliography listings. EPub readers do not consistently support external hyperlinks, so these external links are typically not available in that form.  
+The Web site provides links to Amazon.com for recommended books and albums and bibliography listings.   
 
-Finally, the pages describing great examples of rock music have text links embedded in them that say: "Audio clip - 60K":../audio/school_day/up_in_the_morning.mp3. On the Web site, clicking on one of these will download a small MP3 file to play. These audio clips are not available from the EPub form. 
+Finally, the pages describing great examples of rock music have text links embedded in them that say: "Audio clip - 60K":../audio/school_day/up_in_the_morning.mp3. On the Web site, clicking on one of these will download a small MP3 file to play.  
 
