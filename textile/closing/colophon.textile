@@ -1,15 +1,6 @@
-When I originally authored ??Reason to Rock?? in 2000 and 2001, I created the text directly in HTML, using BBEdit and its templating system to build the original Web site. 
+Following is a list of the primary tools used to build and maintain this site. 
 
-Over the years, as I continued to add to the original work and make minor revisions from time to time: 
-
-* direct authoring in HTML proved to be increasingly awkward;
-* the HTML syntax of the original site became increasingly out-of-date;
-* some opportunities for navigational improvements emerged;
-* the overall look of the site felt increasingly dated. 
-
-In late 2008, I finally reached a tipping point and began to explore alternatives for addressing these issues. The list below includes the results of this thought process that culminated in a new site design launched in 2009. 
-
-**Made on a Mac** -- All of the work on this site has been done on Macintosh computers. 
+**Made on a Mac**:http://www.apple.com/mac/ -- All of the work on this site has been done on Macintosh computers. 
 
 **Static HTML Pages** -- While I considered using a Content Management System such as TextPattern or Drupal, I ultimately preferred to maintain the site in static HTML, to optimize load times, to maximize the site's portability and to allow myself the broadest options in overall design of the site. 
 

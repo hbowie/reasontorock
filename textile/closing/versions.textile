@@ -1,5 +1,7 @@
 Changes to ??Reason to Rock?? are listed below, with the most recent ones first.
 
+; Version 3.00 -- Released April 17, 2016 : Design updated to be responsive and mobile-friendly, using HTML5 and Bootstrap; e-book version removed.
+
 ; Version 2.10 -- Released July 31, 2010 : E-book released in the EPUB format, compatible with Apple's iBooks for the iPad, as well as other e-book readers.
 
 ; Version 2.00 -- Released June 14, 2009 : Completed conversion to XHTML, redesigned look and feel of site, cleaned up dead links.
