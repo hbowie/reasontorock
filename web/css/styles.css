@@ -74,8 +74,17 @@ div.five-star {
 
 .five-star p { font-family: 'concourse_t4regular', Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-.footer
-{
+.albums h4 {  
+	font-size: 1em; 
+	font-family: 'equity-text', Georgia, 'Times New Roman', Times, serif; 
+}
+
+.links h4 {  
+	font-size: 1em; 
+	font-family: 'equity-text', Georgia, 'Times New Roman', Times, serif; 
+}
+
+.footer {
 	text-align: center;
 	font-family: 'concourse_t3regular', Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
@@ -106,6 +115,8 @@ a.thumbnail:link {
 	text-align: center;
 }
 
+.store
+
 #toc { font-family: 'concourse_t4regular', Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #toc tr {
@@ -117,9 +128,10 @@ a.thumbnail:link {
 {
 	text-align: center;
 	font-size: 2em;
+	letter-spacing: 0.2em;
 	line-height: 1.1em;
-	font-family: 'concourse_t6italic', Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'concourse_t2italic', Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	color: #b2626f;
+	color: #333;
 }

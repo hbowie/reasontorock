@@ -1,4 +1,9 @@
 module	action	modifier	object	value
+<!-- Generate store links -->
+input	set		normalization	0
+input	open	notenik-general		#PATH#../storenotes/
+template	open	text		#PATH#../factory/sub/store_template.html
+template	generate
 <!-- Generate javascript to randomly display album images -->
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
