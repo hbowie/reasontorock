@@ -1,0 +1,35 @@
+Title: About the Author
+Author: Herb Bowie
+Date: Feb 21, 2015
+Body:
+
+## Personal
+
+Happily married to Pauline, the proud father of Stephen, a grateful companion to Hank (our Golden Retriever), and a resident of Seattle.
+
+## Academic
+
+Graduated from Annapolis Senior High School in 1969, and from the University of Michigan in 1973, with a B.A. in English. Wrote rock music reviews for <cite>The Michigan Daily</cite>.
+
+## Professional
+
+Began a career in what was then called data processing in 1973, and have progressed over the years to positions of increasing levels of responsibility in the field currently known as Information Technology. Have worked for a major American aerospace company for the last 30 years or so.
+
+## Interests
+
+Became interested in Web publishing early in the history of the World Wide Web, and have authored, published and administered a number of sites related to my varied interests.
+
+**[PaganTuna.com](http://www.pagantuna.com/)** -- A collection of shorter writings on a variety of topics related to technology and leadership.
+
+**[PowerSurgePub.com](http://www.powersurgepub.com)** -- A collection of useful software programs written in Java.
+
+**[Practopian.org](http://www.practopian.org)** -- A web log on more philosophical topics, writing as the Practical Utopian.
+
+**[ReasonToRock.com](http://www.reasontorock.com)** -- A complete online book on the aesthetics of rock music.
+
+**[UMSeattle.com](http://www.umseattle.com)** -- I serve as a board member of the University of Michigan Club of Seattle, and as the Club&#8217;s Webmaster.
+
+## Contact
+
+Feel free to contact me via email at <a href="mailto:herb@reasontorock.com">herb@reasontorock.com</a>.
+
