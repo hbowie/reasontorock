@@ -96,12 +96,27 @@ div.five-star {
 	font-family: 'concourse_t4regular', Verdana, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.pic-right {
+  float: right;
+  padding: 4px;
+}
+
+.pub-date {
+	color: #8E9CB4;
+	text-align: right;
+}
+
 .shopItem {
 	margin-bottom: 3em;
 }
 
 blockquote.pull a:link {
 	text-decoration: none;
+}
+
+.tags {
+  font-style: italic;
+  color: #8E9CB4;
 }
 
 a.thumbnail:link {

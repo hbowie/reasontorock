@@ -1,6 +1,8 @@
 Title:  Update Process
 
 Body:   
+
+## A. Site Layout
  
 1. Update any BBEdit include files that need to be changed.
 
@@ -12,5 +14,56 @@ Body:
 
 3. Use BBEdit to update the site.
 
-4. Use PSTextMerge to run the sitegen.tcz script.
+## B. Blog Posts
+
+Blog posts are stored at the following location:
+
+    ~/Dropbox/Words/
+
+Blog posts are generally written in the [Markdown][] format using BBedit. The Markdown source is stored in the notes subfolder.
+
+The metadata about the posts is updated using [TwoDue][].
+
+Use TwoDue to open the following folder.
+
+    ~/Two Due/Two Due for Words/
+
+Take the following steps when preparing a new post for publication.
+
+* Make sure the file name, minus the extension, reflects the desired title of the post.
+
+* Delete any title within the text itself.
+
+* Delete any byline from the text.
+
+* Copy any referenced graphic files to the pagantuna/web/images folder.
+
+* Change any internal PaganTuna links to relative links.
+
+* Change links for any quotations to relative links to pagantuna/web/wisdom.
+
+* Change separators in PaganTuna links from underscores to dashes.
+
+* Use BBEdit to export the post from Markdown to HTML, using the same file name, but with an extension of .html.
+
+* Run the SmartyPants text filter against the resulting HTML file to use the proper typographic symbols.
+
+* Set the due date for the corresponding item in Two Due to the publication date.
+
+* Check the Tags in Two Due and make sure they are set appropriately. Add a tag for the appropriate web site (ReasonToRock).
+
+* Enter the year(s) of the work being discussed in the Sequence field. 
+
+* Select the teaser for the post to appear on the home page and copy and paste it from the HTML file to the Description block for the post in TwoDue. Remove links to images and other internal PaganTuna links from the teaser text.
+
+* Change the Two Due status to closed.
+
+Make sure the Two Due Tags Export Preferences specify the desired web site Tags to Select (i.e., PaganTuna), and the Tags to Suppress specify all site tags: PaganTuna, Practopian, ReasonToRock.
+
+Now publish the blog collection using the script at the following location:
+
+    ~/Two Due/Two Due for Words/twodue.tcz
+
+
+4. Use PSTextMerge to run the r2rgen.tcz script.
 

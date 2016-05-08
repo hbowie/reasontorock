@@ -232,3 +232,42 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+<!-- Generate Blog Next Links to go from one post to another -->
+input	set		normalization	0
+input	open	file		#PATH#../../../Two Due/Two Due for Words/twodue_export.tab
+filter	add	equals	status	9
+filter	set		params
+sort	add	Descending	duedateymd
+sort	set		params
+template	open	file		#PATH#../factory/sub/post_nextnav_template.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
+<!-- Generate Blog Post Pages -->
+input	set		normalization	0
+input	open	file		#PATH#../../../Two Due/Two Due for Words/twodue_export.tab
+filter	add	equals	status	9
+filter	set		params
+sort	add	Descending	duedateymd
+sort	set		params
+template	open	file		#PATH#../factory/sub/post_page_template.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params
+<!-- Generate Blog Index, Showing Latest Entries First -->
+input	set		normalization	0
+input	open	file		#PATH#../../../Two Due/Two Due for Words/twodue_export.tab
+filter	add	equals	status	9
+filter	set		params
+sort	add	Descending	duedateymd
+sort	set		params
+template	open	file		#PATH#../factory/sub/post_index_template.html
+template	generate
+filter	clear
+filter	set		params
+sort	clear
+sort	set		params

@@ -1,19 +1,15 @@
 module	action	modifier	object	value
-<!-- Generate index (table-of-contents) page for tracks sorted by artist -->
 input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-filter	add	equals	Section	Artists
+input	open	file		#PATH#../../../Two Due/Two Due for Words/twodue_export.tab
+filter	add	equals	status	9
 filter	set		params
-sort	add	Ascending	Last Name First
+sort	add	Ascending	title
 sort	set		params
-template	open	file		#PATH#../factory/sub/index_tracks_by_artist_template.html
+template	open	file		#PATH#../factory/sub/post_page_template.html
 template	generate
-<!-- Generate index (table-of-contents) page for tracks sorted by title -->
-input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
-filter	add	equals	Section	Tracks
-filter	set		params
-sort	add	Ascending	Title
+sort	clear
 sort	set		params
-template	open	file		#PATH#../factory/sub/index_tracks_by_title_template.html
+sort	add	Descending	duedateymd
+sort	set		params
+template	open	file		#PATH#../factory/sub/post_index_template.html
 template	generate
