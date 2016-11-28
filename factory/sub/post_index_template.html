@@ -91,15 +91,15 @@
 
             <hr>
 <?endif?>
-            <p class="pub-date">=$duedate&MMMM d, yyyy$=</p>
+            <p class="pub-date">=$date&MMMM d, yyyy$=</p>
             <p class="tags">=$tags$=</p>
             <h2><a href="=$title&f$=.html">=$title&h$=</a></h2>
-            =$description&n$=
+            =$teaser&o$=
             <p class="read-more"><a href="=$title&f$=.html">read more...</a></p>
 <?set items ++ ?>
 <?loop?>
 
-<?include "../../nextnav/=$fldr$=/index.html"?>
+<?include "../../nextnav/blog/index.html"?>
         </div>
 
         <!-- Right Hand Column: Album Covers -->
