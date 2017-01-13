@@ -16,7 +16,7 @@ The history of Leonard Cohen's song "Hallelujah" is a fascinating one. Cohen's s
 
 Body:   
 
-<a href="http://www.musicroom.com/se/id_no/0450908/details.html"><img src="../images/blog/hallelujah.jpg" alt="Sheet Music for Hallelujah" target="ref" height="400" class="pic-right" /></a>
+<a href="http://www.musicroom.com/se/id_no/0450908/details.html"><img src="http://www.reasontorock.com/images/blog/hallelujah.jpg" alt="Sheet Music for Hallelujah" target="ref" height="400" class="pic-right" /></a>
 
 Track: ["Hallelujah"][hallelujah]
 
