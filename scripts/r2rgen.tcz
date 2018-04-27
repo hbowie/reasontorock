@@ -1,10 +1,14 @@
 module	action	modifier	object	value
+
 <!-- Generate store links -->
+
 input	set		normalization	0
 input	open	notenik-general		#PATH#../storenotes/
 template	open	text		#PATH#../factory/sub/store_template.html
 template	generate
+
 <!-- Generate javascript to randomly display album images -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
 filter	add	equals	Type	albums
@@ -18,7 +22,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate Technology body -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/technology.xls
 template	open	file		#PATH#../factory/html/technology_template.html
@@ -27,7 +33,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate sidebars that appear on the right side of the page -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
 sort	add	Ascending	Folder
@@ -40,7 +48,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate sidebars for artists -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
 sort	add	Ascending	Artist File Name
@@ -54,7 +64,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate sidebars for tracks-->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
 sort	add	Ascending	Track File Name
@@ -68,7 +80,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate bibliography body -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
 sort	add	Ascending	Last Name First
@@ -80,7 +94,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate next navigation links -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
 sort	add	Ascending	Reading Seq
@@ -95,7 +111,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate next navigation for index pages -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
 sort	add	Ascending	Seq1
@@ -107,7 +125,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate Example Tracks for Elements -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
 sort	add	Ascending	Element 1 File Name
@@ -120,7 +140,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate Home page -->
+
 input	set		normalization	0
 input	open	notenik		#PATH#../home/
 template	open	text		#PATH#../factory/home_template.html
@@ -129,7 +151,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate Search page -->
+
 input	set		normalization	0
 input	open	notenik		#PATH#../home/
 template	open	text		#PATH#../factory/search_template.html
@@ -138,7 +162,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate index (table-of-contents) pages -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
 sort	add	Ascending	Seq1
@@ -150,7 +176,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate index (table-of-contents) page for tracks sorted by artist -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
 filter	add	equals	Section	Artists
@@ -163,7 +191,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate index (table-of-contents) page for tracks sorted by title -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
 filter	add	equals	Section	Tracks
@@ -176,7 +206,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate albums for each artist -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
 sort	add	Ascending	Artist File Name
@@ -190,7 +222,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate links for each artist -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
 sort	add	Ascending	Artist File Name
@@ -202,7 +236,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate list of 5-star albums -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/items.xls
 filter	add	equals	Type	albums
@@ -223,7 +259,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate pages -->
+
 input	set		normalization	0
 input	open	xls		#PATH#../lists/pages.xls
 template	open	file		#PATH#../factory/sub/page_template.html
@@ -232,7 +270,9 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate Blog Next Links to go from one post to another -->
+
 input	set		normalization	0
 input	set		xpltags	false
 input	open	notenik+		#PATH#../blog/

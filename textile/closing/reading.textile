@@ -16,8 +16,6 @@ h2. Web Sites
 
 # "Scaruffi.com":http://www.scaruffi.com/music/ -- A comprehensive online resource on the history of rock music, by Piero Scaruffi.
 
-# "Rock Music Resources":http://www.geocities.com/rockmusic_myownsite/index.html -- A good collection of links to other Web resources.
-
 
 h2. Books
 

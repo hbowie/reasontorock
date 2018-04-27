@@ -1,4 +1,4 @@
-The bulk of <cite>Reason to Rock</cite> by [Herb Bowie](author.html) is copyright &copy; 2001-2016 and licensed under a [Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License](http://creativecommons.org/licenses/by-nc-nd/3.0/us/).
+The bulk of <cite>Reason to Rock</cite> by [Herb Bowie](author.html) is copyright &copy; 2001-2018 and licensed under a [Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License](http://creativecommons.org/licenses/by-nc-nd/3.0/us/).
 
 Throughout this work I frequently quote from other sources, including books, magazine articles, song lyrics and actual audio samples from songs. My intent with such a citation is never to damage the original copyright holder, but simply to make fair use of this material, for the purposes of criticism and analysis. In fact I provide liberal links from this site to the original sources, where available as books or CDs, on [Amazon.com](http://www.amazon.com). My consistent purpose is to promote the original works, and influence my readers to purchase them wherever possible.
 
