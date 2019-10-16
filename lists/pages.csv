@@ -1,0 +1,70 @@
+﻿Source,Reading Seq,Seq1,Section,Folder,Seq2,First,Last,Last Name First,Title,File Name,Year,Seq,Years,Element 1 Title,Element 1 File Name,Element 2 Title,Element 2 File Name,Artist 1 Name,Artist 1 File Name,Artist 2 Name,Artist 2 File Name,Track 1 Title,Track 1 File Name,MP3 ID
+textile,A,A,Introduction,intro,10,,Epigraph,,Epigraph,epigraph,,,,,,,,,,,,,,
+textile,A,A,Introduction,intro,20,,Dedication,,Dedication,dedication,,,,,,,,,,,,,,
+textile,A,A,Introduction,intro,30,,Purpose,,Purpose,purpose,,,,,,,,,,,,,,
+textile,A,A,Introduction,intro,40,,Intended Audience,,Intended Audience,audience,,,,,,,,,,,,,,
+textile,A,A,Introduction,intro,50,,Why Another Book on Rock Music?,,Why Another Book on Rock Music?,why_another_book,,,,,,,,,,,,,,
+textile,A,A,Introduction,intro,60,,Organization,,Organization,organization,,,,,,,,,,,,,,
+textile,A,A,Introduction,intro,70,,Buying Advice,,Buying Advice,cd_advice,,,,,,,,,,,,,,
+textile,A,A,Introduction,intro,80,,Navigation,,Navigation,navigation,,,,,,,,,,,,,,
+html,B,B,Elements,elements,10,,Overview,,Overview,overview,,,,,,,,,,,,,,
+html,B,B,Elements,elements,20,,Technology,,Technology,technology,,,,,,,,,,,,,,
+textile,B,B,Elements,elements,30,,Poetry Plus,,Poetry Plus,words,,,,,,,,,,,,,,
+textile,B,B,Elements,elements,40,The,Theme of Liberation,,The Theme of Liberation,liberation,,,,,,,,,,,,,,
+textile,B,B,Elements,elements,50,,Recordings as Creative Input,,Recordings as Creative Input,records_in,,,,,,,,,,,,,,
+textile,B,B,Elements,elements,60,,Recordings as Works of Art,,Recordings as Works of Art,records_out,,,,,,,,,,,,,,
+textile,B,B,Elements,elements,70,,New Forms of Collaboration,,New Forms of Collaboration,collaboration,,,,,,,,,,,,,,
+textile,B,B,Elements,elements,80,,Electronic Amplification,,Electronic Amplification,electricity,,,,,,,,,,,,,,
+textile,B,B,Elements,elements,90,The,Big Beat,,The Big Beat,big_beat,,,,,,,,,,,,,,
+markdown,B,B,Elements,elements,95,The,Unrepentant Human Voice,,The Unrepentant Human Voice,voice,,,,,,,,,,,,,,
+textile,B,B,Elements,elements,100,,Artistic Basics,,Artistic Basics,basics,,,,,,,,,,,,,,
+textile,B,B,Elements,elements,110,,Summary,,Summary,summary,,,,,,,,,,,,,,
+textile,C,C,Artists,artists,10,Robert,Johnson,"Johnson, Robert",Robert Johnson,robert_johnson,1936,,1911 - 1938,,,,,,,,,Come On In My Kitchen,come_on_in_my_kitchen,
+textile,C,C,Artists,artists,20,Chuck,Berry,"Berry, Chuck",Chuck Berry,chuck_berry,1957,,1955 - 1979,,,,,,,,,School Day,school_day,
+textile,C,C,Artists,artists,30,Phil,Spector,"Spector, Phil",Phil Spector,phil_spector,1963,,1958 - 1972,,,,,,,,,Christmas (Baby Please Come Home),xmas,
+textile,C,C,Artists,artists,40,Bob,Dylan,"Dylan, Bob",Bob Dylan,bob_dylan,1965,,1962 - Present,,,,,,,,,Like A Rolling Stone,like_a_rolling_stone,
+textile,C,C,Artists,artists,50,The,Beatles,"Beatles, The",The Beatles,beatles,1966,,1963 - 1969,,,,,,,,,Rain,rain,
+textile,C,C,Artists,artists,60,,Buffalo Springfield,Buffalo Springfield,Buffalo Springfield,buffalo_springfield,1967,,1966 - 1968,,,,,,,,,For What It's Worth,for_what_its_worth,
+textile,C,C,Artists,artists,70,Jimi,Hendrix,"Hendrix, Jimi",Jimi Hendrix,jimi_hendrix,1968,B,1967 - 1970,,,,,,,,,All Along the Watchtower,watchtower,
+textile,C,C,Artists,artists,80,,Cream,Cream,Cream,cream,1968,C,1966 - 1969,,,,,,,,,White Room,white_room,
+textile,C,C,Artists,artists,90,The,Rolling Stones,"Rolling Stones, The",The Rolling Stones,rolling_stones,1968,D,1964 - Present,,,,,,,,,Sympathy For The Devil,sympathy,
+textile,C,C,Artists,artists,100,,Traffic,Traffic,Traffic,traffic,1968,E,1967 - 1974,,,,,,,,,You Can All Join In,you_can_all_join_in,
+textile,C,C,Artists,artists,110,,Jefferson Airplane,Jefferson Airplane,Jefferson Airplane,jefferson_airplane,1969,A,1966 - 1972,,,,,,,,,We Can Be Together,we_can_be_together,
+textile,C,C,Artists,artists,120,The,Band,"Band, The",The Band,band,1969,B,1968 - 1978,,,,,,,,,King Harvest (Has Surely Come),king_harvest,
+textile,C,C,Artists,artists,130,The,Beach Boys,"Beach Boys, The",The Beach Boys,beach_boys,1970,A,1962 - 1996,,,,,,,,,It's About Time,its_about_time,
+markdown,C,C,Artists,artists,135,,Grateful Dead,Grateful Dead,Grateful Dead,grateful_dead,1970,B,1965 - 1995,,,,,,,,,Box of Rain,box_of_rain,
+textile,C,C,Artists,artists,140,,Derek and the Dominos,Derek and the Dominos,Derek and the Dominos,dominos,1970,C,1970,,,,,,,,,Layla,layla,
+textile,C,C,Artists,artists,150,Jesse,Winchester,"Winchester, Jesse",Jesse Winchester,jesse_winchester,1970,D,1970 - 2014,,,,,,,,,Quiet About It,quiet_about_it,
+textile,C,C,Artists,artists,160,The,Velvet Underground,"Velvet Underground, The",The Velvet Underground,velvet_underground,1970,E,1967 - 1970,,,,,,,,,Sweet Jane,sweet_jane,
+textile,C,C,Artists,artists,170,Bruce,Springsteen,"Springsteen, Bruce",Bruce Springsteen,bruce_springsteen,1973,,1973 - Present,,,,,,,,,Rosalita (Come Out Tonight),rosalita,
+textile,C,C,Artists,artists,190,The,Kinks,"Kinks, The",The Kinks,kinks,1975,,1964 - 1994,,,,,,,,,Education,education,
+textile,C,C,Artists,artists,200,Bob,Seger,"Seger, Bob",Bob Seger,bob_seger,1976,,1968 - Present,,,,,,,,,Turn the Page,turn_the_page,
+textile,C,D,Tracks,tracks,10,,Come On In My Kitchen,Come On In My Kitchen,Come On In My Kitchen,come_on_in_my_kitchen,1936,,1936,Recordings As Input,records_in,,,Robert Johnson,robert_johnson,,,,,B00137YFXM
+textile,C,D,Tracks,tracks,20,,School Day,School Day,School Day,school_day,1957,,1957,Liberation,liberation,,,Chuck Berry,chuck_berry,,,,,B001NTEU8K
+textile,C,D,Tracks,tracks,30,,Christmas (Baby Please Come Home),Christmas (Baby Please Come Home),Christmas (Baby Please Come Home),xmas,1963,,1963,The Big Beat,big_beat,,,Phil Spector,phil_spector,,,,,
+textile,C,D,Tracks,tracks,40,,Like A Rolling Stone,Like A Rolling Stone,Like A Rolling Stone,like_a_rolling_stone,1965,,1965,Poetry Plus,words,The Unrepentant Human Voice,voice,Bob Dylan,bob_dylan,,,,,B00136PR6C
+textile,C,D,Tracks,tracks,50,,Rain,Rain,Rain,rain,1966,,1966,Recordings as Works of Art,records_out,,,The Beatles,beatles,,,,,
+textile,C,D,Tracks,tracks,60,,For What It's Worth,For What It's Worth,For What It's Worth,for_what_its_worth,1967,,1967,Recordings as Input,records_in,,,Buffalo Springfield,buffalo_springfield,,,,,B0011Z76UA
+textile,C,D,Tracks,tracks,70,,All Along the Watchtower,All Along the Watchtower,All Along the Watchtower,watchtower,1968,B,1968,Electronic Amplification,electricity,,,Jimi Hendrix,jimi_hendrix,,,,,B001NCQ6O8
+textile,C,D,Tracks,tracks,80,,White Room,White Room,White Room,white_room,1968,C,1968,Electronic Amplification,electricity,,,Cream,cream,,,,,B001NCLS6E
+textile,C,D,Tracks,tracks,90,,Sympathy For The Devil,Sympathy For The Devil,Sympathy For The Devil,sympathy,1968,D,1968,Poetry Plus,words,,,The Rolling Stones,rolling_stones,,,,,B0016CLEW4
+textile,C,D,Tracks,tracks,100,,You Can All Join In,You Can All Join In,You Can All Join In,you_can_all_join_in,1968,E,1968,Collaboration,collaboration,,,Traffic,traffic,,,,,B000W018IG
+textile,C,D,Tracks,tracks,110,,We Can Be Together,We Can Be Together,We Can Be Together,we_can_be_together,1969,A,1969,Collaboration,collaboration,,,Jefferson Airplane,jefferson_airplane,,,,,B00137X6RI
+textile,C,D,Tracks,tracks,120,,King Harvest (Has Surely Come),King Harvest (Has Surely Come),King Harvest (Has Surely Come),king_harvest,1969,B,1969,Collaboration,collaboration,,,The Band,band,,,,,B000SXBUA8
+textile,C,D,Tracks,tracks,130,,It's About Time,It's About Time,It's About Time,its_about_time,1970,A,1970,The Big Beat,big_beat,,,The Beach Boys,beach_boys,,,,,B000TDUT2W
+markdown,C,D,Tracks,tracks,135,,Box of Rain,Box of Rain,Box of Rain,box_of_rain,1970,B,1970,Poetry Plus,words,,,Grateful Dead,grateful_dead,,,,,B00IBD2RB8
+textile,C,D,Tracks,tracks,140,,Layla,Layla,Layla,layla,1970,C,1970,Liberation,liberation,,,Derek and the Dominos,dominos,,,,,B001NZG6FE
+textile,C,D,Tracks,tracks,150,,Quiet About It,Quiet About It,Quiet About It,quiet_about_it,1970,D,1970,Poetry Plus,words,,,Jesse Winchester,jesse_winchester,,,,,B001D507V8
+textile,C,D,Tracks,tracks,160,,Sweet Jane,Sweet Jane,Sweet Jane,sweet_jane,1970,E,1970,Recordings as Works of Art,records_out,,,The Velvet Underground,velvet_underground,,,,,B0012FDWK2
+textile,C,D,Tracks,tracks,170,,Rosalita (Come Out Tonight),Rosalita (Come Out Tonight),Rosalita (Come Out Tonight),rosalita,1973,,1973,Liberation,liberation,,,Bruce Springsteen,bruce_springsteen,,,,,B00136JA6K
+textile,C,D,Tracks,tracks,190,,Education,Education,Education,education,1975,,1975,Recordings as Input,records_in,,,The Kinks,kinks,,,,,
+textile,C,D,Tracks,tracks,200,,Turn the Page,Turn the Page,Turn the Page,turn_the_page,1976,,1976,Poetry Plus,words,,,Bob Seger,bob_seger,,,,,
+textile,E,E,Closing,closing,10,,Epilogue,,Epilogue,epilogue,,,,,,,,,,,,,,
+textile,E,E,Closing,closing,20,,About the Author,,About the Author,author,,,,,,,,,,,,,,
+markdown,E,E,Closing,closing,40,,Colophon,,Colophon,colophon,,,,,,,,,,,,,,
+markdown,E,E,Closing,closing,50,,Copyrights,,Copyrights,copyrights,,,,,,,,,,,,,,
+textile,E,E,Closing,closing,60,,Feedback,,Feedback,feedback,,,,,,,,,,,,,,
+textile,E,E,Closing,closing,80,,Recommended Reading,,Recommended Reading,reading,,,,,,,,,,,,,,
+html,E,E,Closing,closing,90,,Bibliography,,Bibliography,bibliography,,,,,,,,,,,,,,
+textile,E,E,Closing,closing,160,,Version History,,Version History,versions,,,2001 - 2018,,,,,,,,,,,
+html,E,E,Closing,closing,170,,Five Star Albums,,Five Star Albums,five_star_albums,,,,,,,,,,,,,,

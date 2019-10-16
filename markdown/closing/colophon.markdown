@@ -8,9 +8,7 @@ Following is a list of the primary tools used to build and maintain this site.
 
 **[Textile][]** -- After considering a number of different options for a lightweight markup language, I settled on the Textile format since it was the one that provided the most useful options to me, including the ability to specify class names for paragraphs.
 
-**TextMongrel** -- I wrote a small Java program that would help with the conversion of the existing text from native HTML to the Textile format. This may eventually be published on [PowerSurgePub.com][pspub], but I haven't yet had the time to make the program general enough to be useful to a broader audience.
-
-**[PSTextMerge][]** -- I wrote some additional Java code to do the conversion from Textile to HTML, and incorporated that into an as-yet-unreleased new version of PSTextMerge. Using a few folders of Textile source files, some HTML template files, and a couple of spreadsheets listing the primary pages of the site and various items that appear on those pages, PSTextMerge now merges all of this together and regenerates the entire site for me, on demand, whenever any content changes, in a matter of minutes. What's more, the templating system is flexible enough to allow me to change page layouts in any way I want, without restrictions of any kind.
+**[Notenik][]** -- I use this application to generate the web pages from a series of inputs, including content written in Textile. 
 
 **[BBEdit][]** -- BBEdit is still my preferred text editor. I use it to create and maintain the HTML templates for the site, as well as all of the site's textual content.
 
@@ -29,6 +27,7 @@ Following is a list of the primary tools used to build and maintain this site.
 [gc]: 			https://www.lemkesoft.de/en/products/graphicconverter/
 [html5]:   		http://www.w3.org/TR/html5/
 [mac]:     		http://www.apple.com/mac/
+[notenik]:		https://notenik.net
 [pspub]:		http://www.powersurgepub.com
 [pstextmerge]:	http://www.powersurgepub.com/products/pstextmerge/index.html
 [textile]: 		http://textism.com/tools/textile/

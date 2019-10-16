@@ -10,7 +10,7 @@ template	generate
 <!-- Generate javascript to randomly display album images -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
+input	open	file		#PATH#../lists/items.csv
 filter	add	equals	Type	albums
 filter	add	equals	Home Page?	Yes
 filter	add	greater than	Artist Link
@@ -26,7 +26,7 @@ sort	set		params
 <!-- Generate Technology body -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/technology.xls
+input	open	file		#PATH#../lists/technology.csv
 template	open	file		#PATH#../factory/html/technology_template.html
 template	generate
 filter	clear
@@ -37,7 +37,7 @@ sort	set		params
 <!-- Generate sidebars that appear on the right side of the page -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
+input	open	file		#PATH#../lists/items.csv
 sort	add	Ascending	Folder
 sort	add	Ascending	File Name
 sort	add	Ascending	Sidebar Seq
@@ -52,7 +52,7 @@ sort	set		params
 <!-- Generate sidebars for artists -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
+input	open	file		#PATH#../lists/items.csv
 sort	add	Ascending	Artist File Name
 sort	add	Ascending	Album Type
 sort	add	Ascending	Pub Date
@@ -68,7 +68,7 @@ sort	set		params
 <!-- Generate sidebars for tracks-->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
+input	open	file		#PATH#../lists/items.csv
 sort	add	Ascending	Track File Name
 sort	add	Ascending	Album Type
 sort	add	Ascending	Pub Date
@@ -84,7 +84,7 @@ sort	set		params
 <!-- Generate bibliography body -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
+input	open	file		#PATH#../lists/items.csv
 sort	add	Ascending	Last Name First
 sort	add	Ascending	Pub Date
 sort	set		params
@@ -98,7 +98,7 @@ sort	set		params
 <!-- Generate next navigation links -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
+input	open	file		#PATH#../lists/pages.csv
 sort	add	Ascending	Reading Seq
 sort	add	Ascending	Year
 sort	add	Ascending	Seq
@@ -115,7 +115,7 @@ sort	set		params
 <!-- Generate next navigation for index pages -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
+input	open	file		#PATH#../lists/pages.csv
 sort	add	Ascending	Seq1
 sort	add	Ascending	Seq2
 sort	set		params
@@ -129,7 +129,7 @@ sort	set		params
 <!-- Generate Example Tracks for Elements -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
+input	open	file		#PATH#../lists/pages.csv
 sort	add	Ascending	Element 1 File Name
 sort	add	Ascending	Year
 sort	add	Ascending	Seq
@@ -166,7 +166,7 @@ sort	set		params
 <!-- Generate index (table-of-contents) pages -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
+input	open	file		#PATH#../lists/pages.csv
 sort	add	Ascending	Seq1
 sort	add	Ascending	Seq2
 sort	set		params
@@ -180,7 +180,7 @@ sort	set		params
 <!-- Generate index (table-of-contents) page for tracks sorted by artist -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
+input	open	file		#PATH#../lists/pages.csv
 filter	add	equals	Section	Artists
 filter	set		params
 sort	add	Ascending	Last Name First
@@ -195,7 +195,7 @@ sort	set		params
 <!-- Generate index (table-of-contents) page for tracks sorted by title -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
+input	open	file		#PATH#../lists/pages.csv
 filter	add	equals	Section	Tracks
 filter	set		params
 sort	add	Ascending	Title
@@ -210,7 +210,7 @@ sort	set		params
 <!-- Generate albums for each artist -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
+input	open	file		#PATH#../lists/items.csv
 sort	add	Ascending	Artist File Name
 sort	add	Ascending	Album Type
 sort	add	Ascending	Pub Date
@@ -226,7 +226,7 @@ sort	set		params
 <!-- Generate links for each artist -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
+input	open	file		#PATH#../lists/items.csv
 sort	add	Ascending	Artist File Name
 sort	add	Ascending	Item Title
 sort	set		params
@@ -240,7 +240,7 @@ sort	set		params
 <!-- Generate list of 5-star albums -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/items.xls
+input	open	file		#PATH#../lists/items.csv
 filter	add	equals	Type	albums
 filter	add	equals	Rating	5
 filter	add	equals	Home Page?	Yes
@@ -263,7 +263,7 @@ sort	set		params
 <!-- Generate pages -->
 
 input	set		normalization	0
-input	open	xls		#PATH#../lists/pages.xls
+input	open	file		#PATH#../lists/pages.csv
 template	open	file		#PATH#../factory/sub/page_template.html
 template	generate
 filter	clear
@@ -277,9 +277,9 @@ input	set		normalization	0
 input	set		xpltags	false
 input	open	notenik+		#PATH#../blog/
 filter	add	equals	Status	9 - Published
-filter	set		params	
-sort	add	Descending	Date	
-sort	set		params	
+filter	set		params
+sort	add	Descending	Date
+sort	set		params
 template	open	file		#PATH#../factory/sub/post_nextnav_template.html
 template	generate
 filter	clear
@@ -291,9 +291,9 @@ input	set		normalization	0
 input	set		xpltags	false
 input	open	notenik+		#PATH#../blog/
 filter	add	equals	Status	9 - Published
-filter	set		params	
-sort	add	Descending	Date	
-sort	set		params	
+filter	set		params
+sort	add	Descending	Date
+sort	set		params
 template	open	file		#PATH#../factory/sub/post_page_template.html
 template	generate
 filter	clear
@@ -305,9 +305,9 @@ input	set		normalization	0
 input	set		xpltags	false
 input	open	notenik+		#PATH#../blog/
 filter	add	equals	Status	9 - Published
-filter	set		params	
-sort	add	Descending	Date	
-sort	set		params	
+filter	set		params
+sort	add	Descending	Date
+sort	set		params
 template	open	file		#PATH#../factory/sub/post_index_template.html
 template	generate
 filter	clear
