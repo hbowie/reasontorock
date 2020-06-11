@@ -276,7 +276,7 @@ sort	set		params
 input	set		normalization	0
 input	set		xpltags	false
 input	open	notenik+		#PATH#../blog/
-filter	add	equals	Status	9 - Published
+filter	add	ge	Status	9
 filter	set		params
 sort	add	Descending	Date
 sort	set		params
@@ -286,11 +286,13 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate Blog Post Pages -->
+
 input	set		normalization	0
 input	set		xpltags	false
 input	open	notenik+		#PATH#../blog/
-filter	add	equals	Status	9 - Published
+filter	add	ge	Status	9
 filter	set		params
 sort	add	Descending	Date
 sort	set		params
@@ -300,11 +302,13 @@ filter	clear
 filter	set		params
 sort	clear
 sort	set		params
+
 <!-- Generate Blog Index, Showing Latest Entries First -->
+
 input	set		normalization	0
 input	set		xpltags	false
 input	open	notenik+		#PATH#../blog/
-filter	add	equals	Status	9 - Published
+filter	add	ge	Status	9
 filter	set		params
 sort	add	Descending	Date
 sort	set		params
