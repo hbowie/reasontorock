@@ -1,5 +1,7 @@
 Changes to ??Reason to Rock?? are listed below, with the most recent ones first.
 
+; Version 4.20 -- Released June 11, 2020 : Added pages for Jackson Browne and ??Late for the Sky??. 
+
 ; Version 4.10 -- Released October 15, 2019 : Regenerated using the new version of Notenik instead of PSTextMerge. Other minor updates. 
 
 ; Version 4.00 -- Released April 27, 2018 : Added the Element of "The Unrepentant Human Voice," plus the Artist page for the Grateful Dead, plus the Track page for "Box of Rain."
